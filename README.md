@@ -3894,6 +3894,16 @@ Contribuições de:<br>
   <img src="https://github.com/monteiro74/tutorial_python_v2" />
 </a>
 
+
+
+Contribuições de:<br>
+<a    href="https://github.com/monteiro74/tutorial_python_v2/contributors">
+  <img src="https://contrib.rocks/image?repo=monteiro74/tutorial_python_v2" />
+</a>
+
+
+
+
 Histórico de frequência de código:<BR>
 https://github.com/monteiro74/tutorial_python/graphs/code-frequency<BR>
 
