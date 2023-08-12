@@ -106,6 +106,7 @@ Plot<br>
 [24 Plot e gráfico](#24-plot-e-gráficos)<br>
 [24.1. Plot](#241-plot)<br>
 [24.2. Gráfico pizza](#242-gráfico-pizza)<br>
+[24.2.1. Gráfico de pizza com matplotlib](#2421-gráfico-de-pizza-com-matplotlib)<br>
 [24.3. Gráfico com numpy](#243-grafico-com-numpy)<br>
 [25.4. Gráfico de dispersão](#254-gráfico-de-dispersão)<br>
 [25.7 Gráfico de histograma]()<br>
