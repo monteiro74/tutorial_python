@@ -41,7 +41,7 @@ Conceitos e exemplos gerais da linguagem:<br>
 [4.2. Variáveis locais e globais](#42-local-e-global)<br>
 
 
-[5. Operadores](#5-Operadores) <br>
+[5. Operadores](#5-operadores) <br>
 [5.1. Operadores matemáticos](#51-operadores-matemáticos)<br>
 [5.2. Operadores relacionais](#52-operadores-relacionais)<br>
 [5.3. Operadores lógicos](#53-operadores-lógicos)<br>
