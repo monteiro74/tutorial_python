@@ -119,16 +119,14 @@ Plot<br>
 
 
 Estatísticas<br>
-[25 Exemplos com estatísticas](#25-exemplos-com-estatísticas)<br>
-[25.1. Média, mediana, moda e desvio padrão](#251-media-mediana-moda-e-desvio-padrão)<br>
-[25.2. Percentil e porcentagem](#252-percentil-e-porcentagem)<br>
-[25.3. Distribuição normal](#253-distribuição-normal)<br>
-[25.5. Regressão](#255-regressão)<br>
-[25.5.1. Regressão linear]()<br>
-[25.5.2. Regressão polinomial]()<br>
-[25.6 Contagem de valores, média e mediana com pandas dataframe]()<br>
-[25.8. Outras medidas de uma dataset com pandas dataframe]()<br>
-[25.10 Consultando grupos, média em grupos]()<br>
+[25. Exemplos diversos com estatísticas](#25-exemplos-diversos-com-estatísticas)<br>
+[25.1 Media, mediana, moda e desvio padrão](#251-media-mediana-moda-e-desvio-padrão)<br>
+[25.2 Percentil e porcentagem](#252-percentil-e-porcentagem)<br>
+[25.3. Regressão](#253-regressão)<br>
+[25.3.1. Regressão linear](#2531-regressão-linear)<br>
+[25.3.2. Regressão polinomial](#2532-regressão-polinomial)<br>
+[25.4 Contagem de valores, média e mediana com pandas dataframe](#254-contagem-de-valores-média-e-mediana-com-pandas-dataframe)<br>
+[25.5. Média, desvio padrão, mínimo, máximo. pandas dataframe](#255-média-desvio-padrão-mínimo-máximo-pandas-dataframe)<br>
 
 Aprendizado de máquina<br>
 [26 Aprendizado de máquina](#26-aprendizado-de-máquina)<br>
