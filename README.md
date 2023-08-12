@@ -4,16 +4,6 @@
 Objetivos: Pequenos exemplos para uso da linguagem python em sala de aula, em qualquer projetos de software. Exemplos que podem ser citados e comentados nas disciplinas que necessitam do apoio de uma linguagem de programação. Como prerequisito é necessário ter uma IDE instalada. Este material é extremamente resumido e supões que o leitor tem conhecimento básico de programação ou pelo menos português estruturado. (Esta é a versão: 2).<br>
 
 
-
-
-
-```
-Este material esta recebendo atualizações frequentes 
-e continua sendo revisado. 
-```
-
-
-
 ```
 Observações:
 1. Este material pode ser usado como suporte às disciplinas de: lógica,
@@ -27,7 +17,6 @@ IDE (os códigos foram testados com Spyder).
 de software além de python, consulte a lista de ferramentas:
 https://github.com/monteiro74/lista_de_ferramentas
 ```
-
 
 # Sumário:
 
