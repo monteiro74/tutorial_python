@@ -3867,10 +3867,8 @@ https://www.devopsschool.com/blog/python-tutorials-difference-between-list-array
 
 ```
 As informações aqui contidas podem ser alteradas sem aviso prévio.
-Primeira postagem em: Junho/2023. 
-Última atualização em: 29/julho/2023.
-Se desejar conhecer outras ferramentas para desenvolvimento de software,
- consulte a página: https://github.com/monteiro74/lista_de_ferramentas#5-IDEs
+Primeira postagem (na antiga versão 1) em: Junho/2023. 
+Última atualização em: 12/agosto/2023.
 ```
 
 
@@ -3881,25 +3879,12 @@ Lista de ferramentas: https://github.com/monteiro74/lista_de_ferramentas#5-IDEs
 ---
 # Avisos, licença, observações, estatísticas
 
-
-
-```
-Autor: Prof. Dr. Monteiro.
-Licença: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) 
-https://creativecommons.org/licenses/by-nc-sa/4.0/
-
-```
-
 Histórico de atualizações nos repositórios do Prof. Monteiro:<br>
 [![teste](https://github-readme-activity-graph.vercel.app/graph?username=monteiro74&theme=github-compact)](https://github.com/monteiro74/tutorial_python)
 
-
-
 [![GitHub Streak](https://streak-stats.demolab.com/?user=monteiro74&theme=default)](https://git.io/streak-stats)
 
-
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=monteiro74)](https://github.com/monteiro74/github-readme-stats)
-
 
 Pulse:<br>
 https://github.com/monteiro74/tutorial_python/pulse<BR>
