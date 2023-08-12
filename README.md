@@ -95,7 +95,7 @@ MySQL<br>
 [22.1. SQL create database](#221-sql-create-database)<br>
 [22.2. SQL create table](#222-sql-create-table)<br>
 [22.3. SQL insert delete update](#223-sql-insert-delete-update)<br>
-[22.4. Select](#224-select)<br>
+[22.4. Select](#224-sql-select)<br>
 [22.5. Sum, Max, Min, Avg, Count](#225-sum-max-min-avg-count)<br>
 [22.6. SQL drop table e drop databasae](#226-sql-drop-table-e-drop-database)<br>
 
