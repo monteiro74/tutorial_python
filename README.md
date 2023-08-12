@@ -3890,8 +3890,8 @@ Pulse:<br>
 https://github.com/monteiro74/tutorial_python/pulse<BR>
 
 Contribuições de:<br>
-<a href="https://github.com/monteiro74/tutorial_python/contributors">
-  <img src="https://contrib.rocks/image?repo=monteiro74/tutorial_python" />
+<a href="https://github.com/monteiro74/tutorial_python_v2/contributors">
+  <img src="https://github.com/monteiro74/tutorial_python_v2" />
 </a>
 
 Histórico de frequência de código:<BR>
