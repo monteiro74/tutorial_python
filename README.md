@@ -27,7 +27,6 @@ Conceitos e exemplos gerais da linguagem:<br>
 [3.1. Python com números](#31-python-com-números)<br>
 [3.2. Exponenciação](#32-exponenciação)<br>
 [3.3. Módulo](#33-módulo)<br>
-
 [4. Tipos de dados e variáveis](#4-tipos-de-dados-e-variáveis)<br>
 [4.1. Operações com strings](#41-operações-com-strings)<br>
 [4.1.1. Concatenando strings](#411-concatenando-strings) <br>
@@ -39,8 +38,6 @@ Conceitos e exemplos gerais da linguagem:<br>
 [4.1.7. Buscas e substituição por strings](#417-busca-e-substituição-por-substring)<br>
 [4.1.8. Formas de impressao de strings](#418-formas-de-impressao-de-string)<br>
 [4.2. Variáveis locais e globais](#42-local-e-global)<br>
-
-
 [5. Operadores](#5-operadores) <br>
 [5.1. Operadores matemáticos](#51-operadores-matemáticos)<br>
 [5.2. Operadores relacionais](#52-operadores-relacionais)<br>
@@ -51,7 +48,7 @@ Conceitos e exemplos gerais da linguagem:<br>
 [7.2. Continue](#72-continue)<br>
 [7.3. Pass](#73-pass)<br>
 [7.4. Match case](#74-match-e-case)<br>
-[8. Estruturas de repetição](#8-Estruturas-de-repetição) <br>
+[8. Estruturas de repetição](#8-estruturas-de-repetição)<br>
 [8.1. Laço while](#81-laço-while) <br>
 [8.1.1. While true](#811-laço-while-true)<br>
 [8.2. Laço for](#82-laço-for)<br>
