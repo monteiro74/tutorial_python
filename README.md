@@ -3898,7 +3898,7 @@ Contribuições de:<br>
 
 Contribuições de:<br>
 <a    href="https://github.com/monteiro74/tutorial_python_v2/contributors">
-  <img src="https://contrib.rocks/image?repo=monteiro74/tutorial_python_v2" />
+  <img src="https://avatars.githubusercontent.com/u/29359814?s=400&u=57980492f240d320caf903b08e9313b6dbda1c23&v=4" />
 </a>
 
 
