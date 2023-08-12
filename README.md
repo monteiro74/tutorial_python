@@ -3889,20 +3889,6 @@ Histórico de atualizações nos repositórios do Prof. Monteiro:<br>
 Pulse:<br>
 https://github.com/monteiro74/tutorial_python/pulse<BR>
 
-Contribuições de:<br>
-<a href="https://github.com/monteiro74/tutorial_python_v2/contributors">
-  <img src="https://github.com/monteiro74/tutorial_python_v2" />
-</a>
-
-
-
-Contribuições de:<br>
-<a    href="https://github.com/monteiro74/tutorial_python_v2/contributors">
-  <img src="https://avatars.githubusercontent.com/u/29359814?s=400&u=57980492f240d320caf903b08e9313b6dbda1c23&v=4" />
-</a>
-
-
-
 
 Histórico de frequência de código:<BR>
 https://github.com/monteiro74/tutorial_python/graphs/code-frequency<BR>
