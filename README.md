@@ -3726,18 +3726,6 @@ Name: nota, dtype: float64
 
 [Voltar ao sumário](#sumário)<br>
 
-
-
-
-
-
-
-
-
-
-
-[Voltar ao sumário](#sumário)<br>
-
 # 26 Aprendizado de máquina
 
 ```
