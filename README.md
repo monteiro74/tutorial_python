@@ -2429,7 +2429,7 @@ idade:  25
 
 
 
-## 21.1 Instanciando objetos, atribundo valores
+## 21.1 Instanciando objetos, atribuindo valores
 
 Exemplo:
 
