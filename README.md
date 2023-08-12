@@ -2993,44 +2993,44 @@ Em desenvolvimento
 ## 24.1. Plot
 
 ```python
-import matplotlib.pyplot as plt
-import numpy as np
+import matplotlib.pyplot as plt1
+import numpy as npy
 
-xpoints = np.array([1, 5, 8, 10])
-ypoints = np.array([3, 8, 10, 15])
+xpoints = npy.array([1, 5, 8, 10])
+ypoints = npy.array([3, 8, 10, 15])
 
-plt.plot(xpoints, ypoints)
-plt.show()
+plt1.plot(xpoints, ypoints)
+plt1.show()
 ```
 
 Exemplo com linhas:
 
 ```python
-import matplotlib.pyplot as plt
-import numpy as np
+import matplotlib.pyplot as plt1
+import numpy as npy
 
-ypoints = np.array([2, 7, 5, 11])
+ypoints = npy.array([2, 7, 5, 11])
 
-plt.xlabel("Eixo X")
+plt1.xlabel("Eixo X")
 plt.ylabel("Eixo y")
 
-plt.plot(ypoints, linestyle = 'dotted')
-plt.grid()
-plt.show()
+plt1.plot(ypoints, linestyle = 'dotted')
+plt1.grid()
+plt1.show()
 ```
 
 Exemplo com barras:
 
 ```python
-import matplotlib.pyplot as plt
-import numpy as np
+import matplotlib.pyplot as plt1
+import numpy as npy
 
-x = np.array(["X", "Y", "Z", "W"])
-y = np.array([5, 9, 4, 11])
+x = npy.array(["X", "Y", "Z", "W"])
+y = npy.array([5, 9, 4, 11])
 
-plt.bar(x,y)
-plt.grid()
-plt.show()
+plt1.bar(x,y)
+plt1.grid()
+plt1.show()
 ```
 
 [Voltar ao sumário](#sumário)<br>
@@ -3041,7 +3041,7 @@ plt.show()
 ## 24.2. Gráfico pizza
 
 ```python
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt1
   
 # definição de classes ou categorias da pizza
 classes = ['classe1', 'classe2', 'classe3', 'classe4']
@@ -3053,15 +3053,15 @@ fatias = [5, 5, 3, 9]
 cores = ['r', 'y', 'g', 'b']
   
 # montando a pizza
-plt.pie(fatias, labels = classes, colors=cores, 
+plt1.pie(fatias, labels = classes, colors=cores, 
         startangle=90, shadow = True, explode = (0, 0, 0.1, 0),
         radius = 1.2, autopct = '%1.1f%%')
   
 # plotando a legenda
-plt.legend()
+plt1.legend()
   
 # mostrando a pizza
-plt.show()
+plt1.show()
 ```
 
 [Voltar ao sumário](#sumário)<br>
@@ -3077,11 +3077,11 @@ Em desenvolvimento
 
 ```python
 # -*- coding: utf-8 -*-
-import pandas as pd
+import pandas as pds
 import seaborn as sbn
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt1
 
-filmes = pd.read_csv("tmdb_5000_movies.csv")
+filmes = pds.read_csv("tmdb_5000_movies.csv")
 # foi utilizado o arquivo: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?resource=download
 
 #sbn.catplot(x="original_language", kind="count", data=filmes)
@@ -3091,9 +3091,8 @@ filmes_por_categoria = filmes["original_language"].value_counts().to_frame().res
 filmes_por_categoria.columns = ["original_language", "total"]
 print(filmes_por_categoria.head())
 
-plt.pie(filmes_por_categoria["total"], labels = filmes_por_categoria["original_language"])
+plt1.pie(filmes_por_categoria["total"], labels = filmes_por_categoria["original_language"])
 ```
-
 
 [Voltar ao sumário](#sumário)<br>
 
@@ -3104,8 +3103,8 @@ plt.pie(filmes_por_categoria["total"], labels = filmes_por_categoria["original_l
 np.mean, função mean do numpy é usada para calcular a média aritmética ou média dos elementos da matriz junto com o eixo especificado ou eixo múltiplo.
 
 ```python
-import numpy as np
-import matplotlib.pyplot as plt
+import numpy as npy
+import matplotlib.pyplot as plt1
 
 dados = {'Empresa0': 109.50,
         'Empresa1': 104.59,
@@ -3119,9 +3118,9 @@ dados = {'Empresa0': 109.50,
         'Empresa8': 123.60}
 group_dados = list(dados.values())
 group_nomes = list(dados.keys())
-group_mean = np.mean(group_dados)
+group_mean = npy.mean(group_dados)
 
-fig, ax = plt.subplots()
+fig, ax = plt1.subplots()
 ax.barh(group_nomes, group_dados)
 ```
 
@@ -3135,7 +3134,7 @@ ax.barh(group_nomes, group_dados)
 # -*- coding: utf-8 -*-
 # declarações/atribuições
 import numpy
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt1
 
 idade1 = [53,66,77,34,75,25,47,54,67,83,77]
 
@@ -3144,12 +3143,12 @@ idade2 = numpy.random.normal(1.0, 5.0, 1000)
 
 # em seguida realizamos as operações
 # criar um gráfico com os dados do vetor idade1
-plt.hist(idade1, 100)
-plt.show()
+plt1.hist(idade1, 100)
+plt1.show()
  
 # cria um gráfico com os dados gerados aleatóriamente
-plt.hist(idade2, 100)
-plt.show()
+plt1.hist(idade2, 100)
+plt1.show()
 ```
 
 [Voltar ao sumário](#sumário)<br>
@@ -3187,10 +3186,11 @@ Em desenvolvimento
 
 ```python
 # -*- coding: utf-8 -*-
-import pandas as pd
+# declarações/atribuições
+import pandas as pds
 import seaborn as sbn
 
-notas = pd.read_csv("ratings.csv")
+notas = pds.read_csv("ratings.csv")
 # foi utilizado o arquivo: https://grouplens.org/datasets/movielens/
 
 print("-- mudar o título do cabeçalho ----------------------------")
@@ -3212,9 +3212,9 @@ sbn.boxplot(notas.nota)
 
 ```python
 # -*- coding: utf-8 -*-
-import pandas as pd
+import pandas as pds
 
-notas = pd.read_csv("ratings.csv")
+notas = pds.read_csv("ratings.csv")
 # foi utilizado o arquivo: https://grouplens.org/datasets/movielens/
 
 print("-- mudar o título do cabeçalho ----------------------------")
@@ -3253,11 +3253,11 @@ Em desenvolvimento
 
 ```python
 # -*- coding: utf-8 -*-
-import pandas as pd
+import pandas as pds
 import seaborn as sbn
 
-filmes = pd.read_csv("movies.csv")
-notas = pd.read_csv("ratings.csv")
+filmes = pds.read_csv("movies.csv")
+notas = pds.read_csv("ratings.csv")
 # foi utilizado o arquivo: https://grouplens.org/datasets/movielens/
 
 print("-- mudar o título do cabeçalho ----------------------------")
@@ -3283,7 +3283,6 @@ sbn.displot(medias_por_filme, bins=15, kde=True)
 
 print("--- desta forma o seaborn decide sozinho a quantidade de colunas")
 sbn.displot(medias_por_filme, kde=True)
-
 ```
 
 
@@ -3302,12 +3301,12 @@ Em desenvolvimento
 
 ```python
 # -*- coding: utf-8 -*-
-import pandas as pd
+import pandas as pds
 import seaborn as sbn
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt1
 
-filmes = pd.read_csv("movies.csv")
-notas = pd.read_csv("ratings.csv")
+filmes = pds.read_csv("movies.csv")
+notas = pds.read_csv("ratings.csv")
 # foi utilizado o arquivo: https://grouplens.org/datasets/movielens/
 
 #print("--- exemplo2: media por grupos de filmes usando a coluna nota (rating) ---")
@@ -3324,8 +3323,8 @@ sbn.displot(medias_por_filme, bins=15, kde=True)
 sbn.displot(medias_por_filme, kde=True)
 
 # --- gráfico 4: usando matplotlib
-plt.hist(medias_por_filme)
-plt.title("titulo de gráfico aqui !")
+plt1.hist(medias_por_filme)
+plt1.title("titulo de gráfico aqui !")
 ```
 
 
@@ -3343,11 +3342,11 @@ Em desenvolvimento
 
 ```python
 # -*- coding: utf-8 -*-
-import pandas as pd
+import pandas as pds
 import seaborn as sbn
 
 # gráfico de barras para as categorias usando seaborn kind
-filmes = pd.read_csv("tmdb_5000_movies.csv")
+filmes = pds.read_csv("tmdb_5000_movies.csv")
 sbn.catplot(x="original_language", kind="count", data=filmes)
 ```
 
@@ -3477,7 +3476,7 @@ Em desenvolvimento
 ```python
 # -*- coding: utf-8 -*-
 # declarações/atribuições
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt1
 from scipy import stats
 
              # 1  2  3  4  5  6  7  8  9 10
@@ -3494,9 +3493,9 @@ modelo1 = list(map(funcao1, velocidade))
 
 # em seguida realizamos as operações
 #           eixo-x eixo-y
-plt.scatter(velocidade, idade)
-plt.plot(velocidade, modelo1)
-plt.show()
+plt1.scatter(velocidade, idade)
+plt1.plot(velocidade, modelo1)
+plt1.show()
 ```
 
 Observações:
@@ -3513,7 +3512,6 @@ Predizer a velocidade para um carro com 10 anos:
 ```python
 # -*- coding: utf-8 -*-
 # declarações/atribuições
-import matplotlib.pyplot as plt
 from scipy import stats
 
              # 1  2  3  4  5  6  7  8  9 10
@@ -3554,7 +3552,7 @@ Em desenvolvimento
 # -*- coding: utf-8 -*-
 # declarações/atribuições
 import numpy
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt1
 
 hora = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]             
 velocidade  = [90,93,65,65,63,65,67,71,72,71,78,67,70,80,80,64,78,75,90,100]
@@ -3563,9 +3561,9 @@ modelo1 = numpy.poly1d(numpy.polyfit(hora, velocidade, 3))
 linha1 = numpy.linspace(1, 22, 100)
 
 # em seguida realizamos as operações
-plt.scatter(hora, velocidade)
-plt.plot(linha1, modelo1(linha1))
-plt.show()
+plt1.scatter(hora, velocidade)
+plt1.plot(linha1, modelo1(linha1))
+plt1.show()
 ```
 
 [Voltar ao sumário](#sumário)<br>
@@ -3577,9 +3575,9 @@ plt.show()
 
 ```python
 # -*- coding: utf-8 -*-
-import pandas as pd
+import pandas as pds
 
-notas = pd.read_csv("ratings.csv")
+notas = pds.read_csv("ratings.csv")
 # foi utilizado o arquivo: https://grouplens.org/datasets/movielens/
 
 print("--- primeiras linhas ---------------------------")
@@ -3688,9 +3686,9 @@ Name: nota, Length: 100836, dtype: float64
 
 ```python
 # -*- coding: utf-8 -*-
-import pandas as pd
+import pandas as pds
 
-notas = pd.read_csv("ratings.csv")
+notas = pds.read_csv("ratings.csv")
 # foi utilizado o arquivo: https://grouplens.org/datasets/movielens/
 
 print("-- mudar o título do cabeçalho ----------------------------")
@@ -3699,6 +3697,7 @@ print(notas.head())
 
 print("--- várias medidas ---")
 print(notas.nota.describe())
+
 ```
 
 O resultado será:
