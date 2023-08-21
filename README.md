@@ -104,7 +104,7 @@ MongoDB<br>
 
 Plot<br>
 [24 Plot e gráfico](#24-plot-e-gráficos)<br>
-[24.1. Plot](#241-gráfico-com-matplotlib)<br>
+[24.1. Gráfico com matplotlib](#241-gráfico-com-matplotlib)<br>
 [24.2. Gráfico pizza](#242-gráfico-pizza)<br>
 [24.2.1. Gráfico de pizza com matplotlib](#2421-gráfico-de-pizza-com-matplotlib)<br>
 [24.3. Gráfico com numpy](#243-grafico-com-numpy)<br>
@@ -113,7 +113,7 @@ Plot<br>
 [24.6. Gráfico boxplot com seaborn](#246-gráfico-boxplot-com-seaborn)<br>
 [24.7 Gráfico de histograma](#247-gráfico-de-histograma)<br>
 [24.8 Gráfico de histogramas com Seabor e KDE](#248-gráfico-de-histogramas-com-seabor-e-kde)<br>
-[24.9. Matplotlib, KDE, Seaborn, pyplot](#249-gráfico-com-matplotlib-kde-seaborn-pyplot)<br>
+[24.9. Gráfico com Matplotlib, KDE, Seaborn, pyplot](#249-gráfico-com-matplotlib-kde-seaborn-pyplot)<br>
 [24.9.1. Gráfico de categorias com Seaborn e parâmetro kind](#2491-gráfico-de-categorias-com-seaborn-e-parâmetro-kind)<br>
 
 
