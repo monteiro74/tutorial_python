@@ -1,4 +1,4 @@
-# tutorial_python
+# tutorial_python_v2
 
 
 Objetivos: Pequenos exemplos para uso da linguagem python em sala de aula, em qualquer projetos de software. Exemplos que podem ser citados e comentados nas disciplinas que necessitam do apoio de uma linguagem de programação. Como prerequisito é necessário ter uma IDE instalada. Este material é extremamente resumido e supões que o leitor tem conhecimento básico de programação ou pelo menos português estruturado. (Esta é a versão: 2).<br>
