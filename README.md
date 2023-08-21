@@ -3878,5 +3878,6 @@ Trafego:<BR>
 https://github.com/monteiro74/tutorial_python/graphs/traffic<BR>
 
 
+
 [Voltar ao sumário](#sumário)<br>
 
