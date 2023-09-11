@@ -1,4 +1,4 @@
-# tutorial_python_v2
+# Tutorial sobre python
 
 
 Objetivos: Pequenos exemplos para uso da linguagem python em sala de aula, em qualquer projetos de software. Exemplos que podem ser citados e comentados nas disciplinas que necessitam do apoio de uma linguagem de programação. Como prerequisito é necessário ter uma IDE instalada. Este material é extremamente resumido e supões que o leitor tem conhecimento básico de programação ou pelo menos português estruturado. (Esta é a versão: 2).<br>
@@ -83,14 +83,14 @@ https://github.com/monteiro74/lista_de_ferramentas
 [19. Inputs](#19-input)<br>
 [20. Standard library](#20-standard-library)<br>
 
-## OO<br>
+## Programação Orientada a Objetos<br>
 [21. Python orientado a objetos](#21-python-orientado-a-objetos)<br>
 [21.1. Instanciando objetos e atribuindo valores](#211-instanciando-objetos-atribundo-valores)<br>
 [21.2. Sub classes e herança](#212-sub-classes-e-herança)<br>
 [21.3. Encapsulação](#213-encapsulação)<br>
 [21.4. Polimorfismo](#214-polimorfismo)<br>
 
-## MySQL<br>
+## Banco MySQL(MariaDB)<br>
 [22 Python com MySQL](#22-python-com-mysql)<br>
 [22.1. SQL create database](#221-sql-create-database)<br>
 [22.2. SQL create table](#222-sql-create-table)<br>
@@ -99,7 +99,7 @@ https://github.com/monteiro74/lista_de_ferramentas
 [22.5. Sum, Max, Min, Avg, Count](#225-sum-max-min-avg-count)<br>
 [22.6. SQL drop table e drop databasae](#226-sql-drop-table-e-drop-database)<br>
 
-## MongoDB<br>
+## Banco MongoDB<br>
 [23 Python com MongoDB](#23-python-com-mongodb)<br>
 
 ## Plot<br>
@@ -141,72 +141,103 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 ## Exemplos de analise de dados & IA
 
-Numpy<br>
-Pandas<br>
-Seaborn<br>
-Matplotlib<br>
-Scikitlearn<br>
-TensorFlow<br>
-Keras<br>
-Pytorch<br>
-Theano<br>
-MxNet<br>
-Café<br>
-CNTK<br>
-Pillow<br>
-OpenCV<br>
-ApacheSpark<br>
-Hadoop<br>
+### Numpy<br>
+
+### Pandas<br>
+
+### Seaborn<br>
+
+### Matplotlib<br>
+
+### Scikitlearn<br>
+
+### TensorFlow<br>
+
+### Keras<br>
+
+### Pytorch<br>
+
+### Theano<br>
+
+### MxNet<br>
+
+### Café<br>
+
+### CNTK<br>
+
+### Pillow<br>
+
+### OpenCV<br>
+
+### ApacheSpark<br>
+
+### Hadoop<br>
 
 [Voltar ao sumário](#sumário)<br>
 
 
 ## Exemplo de desenvolvimento web
 
-Django<br>
-Flask<br>
-CherryPy<br>
-Pyramid<br>
-TurboGears<br>
-Falcon<br>
-Tornado<br>
+### Django<br>
+
+### Flask<br>
+
+### CherryPy<br>
+
+### Pyramid<br>
+
+### TurboGears<br>
+
+### Falcon<br>
+
+### Tornado<br>
 
 [Voltar ao sumário](#sumário)<br>
 
 
 ## Desenvolvimento de app
 
-Kivy<br>
-BeeWare<br>
-Python-for-android<br>
+### Kivy<br>
+
+### BeeWare<br>
+
+### Python-for-android<br>
 
 [Voltar ao sumário](#sumário)<br>
 
 
 ## Desenvolvimento de games
 
-Pygame<br>
-PyKyra<br>
-PyOpenGl<br>
-Panda3D<br>
-Cocos2d<br>
+### Pygame<br>
+
+### PyKyra<br>
+
+### PyOpenGl<br>
+
+### Panda3D<br>
+
+### Cocos2d<br>
 
 [Voltar ao sumário](#sumário)<br>
 
 
 ## Web scraping
 
-urllib<br>
-requests<br>
+### urllib<br>
+
+### requests<br>
 
 [Voltar ao sumário](#sumário)<br>
 
 ## Interações com o site
 
-Selenium<br>
-Webbot<br>
-Webcrawler<br> 
-Scrapy<br>
+### Selenium<br>
+
+### Webbot<br>
+
+### Webcrawler<br> 
+
+### Scrapy<br>
 
 [Voltar ao sumário](#sumário)<br>
 
