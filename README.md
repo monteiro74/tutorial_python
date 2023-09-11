@@ -158,6 +158,9 @@ OpenCV<br>
 ApacheSpark<br>
 Hadoop<br>
 
+[Voltar ao sumário](#sumário)<br>
+
+
 ## Exemplo de desenvolvimento web
 
 Django<br>
@@ -168,11 +171,17 @@ TurboGears<br>
 Falcon<br>
 Tornado<br>
 
+[Voltar ao sumário](#sumário)<br>
+
+
 ## Desenvolvimento de app
 
 Kivy<br>
 BeeWare<br>
 Python-for-android<br>
+
+[Voltar ao sumário](#sumário)<br>
+
 
 ## Desenvolvimento de games
 
@@ -182,11 +191,15 @@ PyOpenGl<br>
 Panda3D<br>
 Cocos2d<br>
 
+[Voltar ao sumário](#sumário)<br>
+
+
 ## Web scraping
 
 urllib<br>
 requests<br>
 
+[Voltar ao sumário](#sumário)<br>
 
 ## Interações com o site
 
@@ -195,6 +208,7 @@ Webbot<br>
 Webcrawler<br> 
 Scrapy<br>
 
+[Voltar ao sumário](#sumário)<br>
 
 ## Outros materiais:<br>
 [Lista de IDEs](#lista-de-ides)<br>
