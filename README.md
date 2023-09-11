@@ -20,7 +20,7 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 # Sumário:
 
-Conceitos e exemplos gerais da linguagem:<br>
+## Conceitos e exemplos gerais da linguagem:<br>
 [1. Comando print](#1-comando-print) <br>
 [2. Comentário](#2-comentário) <br>
 [3. Operações matemáticas](#3-operações-matemáticas) <br>
@@ -83,14 +83,14 @@ Conceitos e exemplos gerais da linguagem:<br>
 [19. Inputs](#19-input)<br>
 [20. Standard library](#20-standard-library)<br>
 
-OO<br>
+## OO<br>
 [21. Python orientado a objetos](#21-python-orientado-a-objetos)<br>
 [21.1. Instanciando objetos e atribuindo valores](#211-instanciando-objetos-atribundo-valores)<br>
 [21.2. Sub classes e herança](#212-sub-classes-e-herança)<br>
 [21.3. Encapsulação](#213-encapsulação)<br>
 [21.4. Polimorfismo](#214-polimorfismo)<br>
 
-MySQL<br>
+## MySQL<br>
 [22 Python com MySQL](#22-python-com-mysql)<br>
 [22.1. SQL create database](#221-sql-create-database)<br>
 [22.2. SQL create table](#222-sql-create-table)<br>
@@ -99,10 +99,10 @@ MySQL<br>
 [22.5. Sum, Max, Min, Avg, Count](#225-sum-max-min-avg-count)<br>
 [22.6. SQL drop table e drop databasae](#226-sql-drop-table-e-drop-database)<br>
 
-MongoDB<br>
+## MongoDB<br>
 [23 Python com MongoDB](#23-python-com-mongodb)<br>
 
-Plot<br>
+## Plot<br>
 [24 Plot e gráfico](#24-plot-e-gráficos)<br>
 [24.1. Gráfico com matplotlib](#241-gráfico-com-matplotlib)<br>
 [24.2. Gráfico pizza](#242-gráfico-pizza)<br>
@@ -118,7 +118,7 @@ Plot<br>
 
 
 
-Estatísticas<br>
+## Estatísticas<br>
 [25. Exemplos diversos com estatísticas](#25-exemplos-diversos-com-estatísticas)<br>
 [25.1 Media, mediana, moda e desvio padrão](#251-media-mediana-moda-e-desvio-padrão)<br>
 [25.2 Percentil e porcentagem](#252-percentil-e-porcentagem)<br>
@@ -128,16 +128,75 @@ Estatísticas<br>
 [25.4 Contagem de valores, média e mediana com pandas dataframe](#254-contagem-de-valores-média-e-mediana-com-pandas-dataframe)<br>
 [25.5. Média, desvio padrão, mínimo, máximo. pandas dataframe](#255-média-desvio-padrão-mínimo-máximo-pandas-dataframe)<br>
 
-Aprendizado de máquina<br>
+## Aprendizado de máquina<br>
 [26 Aprendizado de máquina](#26-aprendizado-de-máquina)<br>
 
-GUI<br>
+## GUI<br>
 [27 GUI](#27-gui)<br>
 
-Outros exemplos<br>
+## Outros exemplos<br>
 [28 Outros exemplos](#28-outros-exemplos)<br>
 
-Outros materiais:<br>
+
+
+## Exemplos de analise de dados & IA
+
+Numpy<br>
+Pandas<br>
+Seaborn<br>
+Matplotlib<br>
+Scikitlearn<br>
+TensorFlow<br>
+Keras<br>
+Pytorch<br>
+Theano<br>
+MxNet<br>
+Café<br>
+CNTK<br>
+Pillow<br>
+OpenCV<br>
+ApacheSpark<br>
+Hadoop<br>
+
+## Exemplo de desenvolvimento web
+
+Django<br>
+Flask<br>
+CherryPy<br>
+Pyramid<br>
+TurboGears<br>
+Falcon<br>
+Tornado<br>
+
+## Desenvolvimento de app
+
+Kivy<br>
+BeeWare<br>
+Python-for-android<br>
+
+## Desenvolvimento de games
+
+Pygame<br>
+PyKyra<br>
+PyOpenGl<br>
+Panda3D<br>
+Cocos2d<br>
+
+## Web scraping
+
+urllib<br>
+requests<br>
+
+
+## Interações com o site
+
+Selenium<br>
+Webbot<br>
+Webcrawler<br> 
+Scrapy<br>
+
+
+## Outros materiais:<br>
 [Lista de IDEs](#lista-de-ides)<br>
 [Lista de editores de códigos](#lista-de-editores-de-códigos)<br>
 [Referências](#referências)<br>
