@@ -3079,9 +3079,35 @@ https://www.db-fiddle.com/
 # 23. Python com MongoDB
 
 
+```python
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["aula10b"]
+mycol = mydb["alunos3"]
+
+x = mycol.find_one()
+
+# imprimir o primeiro documento
+print(x)
+
+# imprimir todos os documentos
+for mycol in mycol.find():
+    print(mycol)
 ```
-Em desenvolvimento
+
+O resultado será:
+
 ```
+{'_id': ObjectId('653041528a0a55c981579857'), 'nome': 'bill', 'nota': 7}
+-------------------
+{'_id': ObjectId('653041528a0a55c981579857'), 'nome': 'bill', 'nota': 7}
+{'_id': ObjectId('653041618a0a55c981579858'), 'nome': 'maria', 'nota': 93}
+{'_id': ObjectId('653049258a0a55c98157985a'), 'nome': 'daniel', 'nota': 6}
+{'_id': ObjectId('653049258a0a55c98157985b'), 'nome': 'mauricio', 'nota': 8}
+{'_id': ObjectId('653049258a0a55c98157985c'), 'nome': 'joao', 'nota': 7}
+```
+
 
 [Voltar ao sumário](#sumário)<br>
 
