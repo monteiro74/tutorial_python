@@ -3082,18 +3082,18 @@ https://www.db-fiddle.com/
 ```python
 import pymongo
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-mydb = myclient["aula10b"]
-mycol = mydb["alunos3"]
+clienteMongo = pymongo.MongoClient("mongodb://localhost:27017/")
+db1 = clienteMongo["aula10b"]
+col1 = db1["alunos3"]
 
-x = mycol.find_one()
+x = col1.find_one()
 
 # imprimir o primeiro documento
 print(x)
 
 # imprimir todos os documentos
-for mycol in mycol.find():
-    print(mycol)
+for col1 in col1.find():
+    print(col1)
 ```
 
 O resultado será:
