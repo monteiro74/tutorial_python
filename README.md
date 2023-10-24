@@ -135,58 +135,58 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 
 
-## Exemplos de analise de dados & IA
+## Analise de dados & IA
 
-### Numpy<br>
+[27.1 Numpy](#27.1-numpy)<br>
 
-### Pandas<br>
+[27.2 Pandas](#27.2-pandas)<br>
 
-### Seaborn<br>
+[27.3. Seaborn](#27.3-seaborn)<br>
 
-### Matplotlib<br>
+[Matplotlib]()<br>
 
-### Scikitlearn<br>
+[Scikitlearn]()<br>
 
-### TensorFlow<br>
+[TensorFlow]()<br>
 
-### Keras<br>
+[Keras]()<br>
 
-### Pytorch<br>
+[Pytorch]()<br>
 
-### Theano<br>
+[Theano]()<br>
 
-### MxNet<br>
+[MxNet]()<br>
 
-### Café<br>
+[Café]()<br>
 
-### CNTK<br>
+[CNT]()<br>
 
-### Pillow<br>
+[Pillow]()<br>
 
-### OpenCV<br>
+[OpenCV]()<br>
 
-### ApacheSpark<br>
+[ApacheSpark]()<br>
 
-### Hadoop<br>
+[Hadoop]()<br>
 
 [Voltar ao sumário](#sumário)<br>
 
 
-## Exemplo de desenvolvimento web
+## Desenvolvimento web
 
-### Django<br>
+[Django]()<br>
 
-### Flask<br>
+[Flask]()<br>
 
-### CherryPy<br>
+[CherryPy]()<br>
 
-### Pyramid<br>
+[Pyramid]()<br>
 
-### TurboGears<br>
+[TurboGears]()<br>
 
-### Falcon<br>
+[Falcon]()<br>
 
-### Tornado<br>
+[Tornado]()<br>
 
 [Voltar ao sumário](#sumário)<br>
 
