@@ -128,11 +128,9 @@ https://github.com/monteiro74/lista_de_ferramentas
 [25.4 Contagem de valores, média e mediana com pandas dataframe](#254-contagem-de-valores-média-e-mediana-com-pandas-dataframe)<br>
 [25.5. Média, desvio padrão, mínimo, máximo. pandas dataframe](#255-média-desvio-padrão-mínimo-máximo-pandas-dataframe)<br>
 
-## Aprendizado de máquina<br>
-[26 Aprendizado de máquina](#26-aprendizado-de-máquina)<br>
 
 ## GUI<br>
-[27 GUI com pyforms](#27-gui-com-pyforms)<br>
+[26 GUI com pyforms](#26-gui-com-pyforms)<br>
 
 
 
@@ -3854,20 +3852,11 @@ Name: nota, dtype: float64
 
 [Voltar ao sumário](#sumário)<br>
 
-# 26 Aprendizado de máquina
-
-```
-Em desenvolvimento...
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
 
 
 
 ---
-# 27. GUI com Pyforms
+# 26. GUI com Pyforms
 
 Instalação do PyForms, via command prompt:<br>
 pip install pyforms
