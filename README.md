@@ -132,10 +132,8 @@ https://github.com/monteiro74/lista_de_ferramentas
 [26 Aprendizado de máquina](#26-aprendizado-de-máquina)<br>
 
 ## GUI<br>
-[27 GUI](#27-gui)<br>
+[27 GUI](#27-gui-com-pyforms)<br>
 
-## Outros exemplos<br>
-[28 Outros exemplos](#28-outros-exemplos)<br>
 
 
 
@@ -3869,7 +3867,7 @@ Em desenvolvimento...
 
 
 ---
-# 27. GUI
+# 27. GUI com Pyforms
 
 Instalação do PyForms, via command prompt:<br>
 pip install pyforms
@@ -3899,17 +3897,6 @@ Em desenvolvimento
 [Voltar ao sumário](#sumário)<br>
 
 
-
-
----
-# 28 Outros exemplos
-
-Outros exemplos
-
-```
-Em desenvolvimento...
-```
-[Voltar ao sumário](#sumário)<br>
 
 
 
