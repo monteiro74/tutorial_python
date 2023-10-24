@@ -132,7 +132,7 @@ https://github.com/monteiro74/lista_de_ferramentas
 [26 Aprendizado de máquina](#26-aprendizado-de-máquina)<br>
 
 ## GUI<br>
-[27 GUI](#27-gui-com-pyforms)<br>
+[27 GUI com pyforms](#27-gui-com-pyforms)<br>
 
 
 
