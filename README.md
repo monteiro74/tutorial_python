@@ -143,97 +143,83 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 [27.3. Seaborn](#27.3-seaborn)<br>
 
-[Matplotlib]()<br>
+[27.4. Matplotlib]()<br>
 
-[Scikitlearn]()<br>
+[27.5. Scikitlearn]()<br>
 
-[TensorFlow]()<br>
+[27.6. TensorFlow]()<br>
 
-[Keras]()<br>
+[27.7. Keras]()<br>
 
-[Pytorch]()<br>
+[27.8. Pytorch]()<br>
 
-[Theano]()<br>
+[27.9. Theano]()<br>
 
-[MxNet]()<br>
+[27.10. MxNet]()<br>
 
-[Café]()<br>
+[27.11. Café]()<br>
 
-[CNT]()<br>
+[27.12. CNT]()<br>
 
-[Pillow]()<br>
+[27.13. Pillow]()<br>
 
-[OpenCV]()<br>
+[27.14. OpenCV]()<br>
 
-[ApacheSpark]()<br>
+[27.15. ApacheSpark]()<br>
 
-[Hadoop]()<br>
+[27.16 Hadoop]()<br>
 
 [Voltar ao sumário](#sumário)<br>
 
 
 ## Desenvolvimento web
 
-[Django]()<br>
+[28.1 Django]()<br>
 
-[Flask]()<br>
+[28.2. Flask]()<br>
 
-[CherryPy]()<br>
+[28.3. CherryPy]()<br>
 
-[Pyramid]()<br>
+[28.4. Pyramid]()<br>
 
-[TurboGears]()<br>
+[28.5. TurboGears]()<br>
 
-[Falcon]()<br>
+[28.6. Falcon]()<br>
 
-[Tornado]()<br>
+[28.7. Tornado]()<br>
 
 [Voltar ao sumário](#sumário)<br>
 
 
 ## Desenvolvimento de app
 
-### Kivy<br>
+[29.1. Kivy]()<br>
 
-### BeeWare<br>
+[29.2. BeeWare]()<br>
 
-### Python-for-android<br>
-
-[Voltar ao sumário](#sumário)<br>
-
-
-## Desenvolvimento de games
-
-### Pygame<br>
-
-### PyKyra<br>
-
-### PyOpenGl<br>
-
-### Panda3D<br>
-
-### Cocos2d<br>
+[29.3. Python-for-android]()<br>
 
 [Voltar ao sumário](#sumário)<br>
+
 
 
 ## Web scraping
 
-### urllib<br>
+[30.1. urllib]()<br>
 
-### requests<br>
+[30.2 requests]()<br>
 
 [Voltar ao sumário](#sumário)<br>
 
 ## Interações com o site
 
-### Selenium<br>
+[31.1. Selenium]()<br>
 
-### Webbot<br>
+[31.2. Webbot]()<br>
 
-### Webcrawler<br> 
+[31.3. Webcrawler]()<br> 
 
-### Scrapy<br>
+[31.4. Scrapy]()<br>
 
 [Voltar ao sumário](#sumário)<br>
 
