@@ -3871,14 +3871,316 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
+---
+# Analise de dados & IA
+
+## 27.1 Numpy
+
+```python
+Em desenvolvimento
+```
 
 
+[Voltar ao sumário](#sumário)<br>
+
+## 27.2 Pandas
+
+```python
+Em desenvolvimento
+```
 
 
+[Voltar ao sumário](#sumário)<br>
 
+## 27.3. Seaborn
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 27.4. Matplotlib
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 27.5. Scikitlearn
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 27.6. TensorFlow
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 27.7. Keras
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 27.8. Pytorch
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 27.9. Theano
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 27.10. MxNet
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 27.11. Café
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+
+## 27.12. CNT
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 27.13. Pillow
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 27.14. OpenCV
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 27.15. ApacheSpark
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 27.16 Hadoop
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
 
 
 ---
+# Desenvolvimento web
+
+## 28.1 Django
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 28.2. Flask
+
+
+```python
+Em desenvolvimento
+```
+
+[Voltar ao sumário](#sumário)<br>
+
+## 28.3. CherryPy
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 28.4. Pyramid
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 28.5. TurboGears
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 28.6. Falcon
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 28.7. Tornado
+
+
+```python
+Em desenvolvimento
+```
+
+[Voltar ao sumário](#sumário)<br>
+
+
+---
+# Desenvolvimento de app
+
+## 29.1. Kivy
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 29.2. BeeWare
+
+
+```python
+Em desenvolvimento
+```
+
+[Voltar ao sumário](#sumário)<br>
+
+## 29.3. Python-for-android
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+---
+# Web scraping
+
+## 30.1. urllib
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 30.2 requests
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+
+---
+# Interações com o site
+
+## 31.1. Selenium
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+
+## 31.2. Webbot
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 31.3. Webcrawler
+
+```python
+Em desenvolvimento
+```
+
+## 31.4. Scrapy
+
+```python
+Em desenvolvimento
+```
+
+
+[Voltar ao sumário](#sumário)<br>
+
+---
+# Outros materiais
+
+
+
 # Lista de IDEs
 
 | Ferramenta   |  URL |
