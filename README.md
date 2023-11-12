@@ -136,7 +136,7 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 
 ## Analise de dados & IA
-[27.1 Numpy](#27.1-numpy)<br>
+[27.1 Numpy](#271-numpy)<br>
 [27.2 Pandas](#27.2-pandas)<br>
 [27.3. Seaborn](#27.3-seaborn)<br>
 [27.4. Matplotlib]()<br>
