@@ -135,7 +135,7 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 
 
-## Analise de dados & IA
+## Analise de dados
 [27.1 Numpy](#271-numpy)<br>
 [27.2 Pandas](#27.2-pandas)<br>
 [27.3. Seaborn](#27.3-seaborn)<br>
@@ -3840,13 +3840,46 @@ Em desenvolvimento
 [Voltar ao sumário](#sumário)<br>
 
 ---
-# Analise de dados & IA
+# Analise de dados
 
 ## 27.1 Numpy
 
 ```python
-Em desenvolvimento
+import numpy as np
+a = np.array([1,2,3,4,5])
+
+vetor_array1 = np.array([0, 1, 2, 3, 4, 5, 6])
+
+# Cria um array com zeros
+np.zeros((3,4))
+
+# Cria um array vazios
+np.empty((3,2))
+
+# Salva um array
+np.save('array1.txt', a)
+
+np.savez('array2.txt', a)
+
+# Carregando do disco
+np.load('array2.txt.npz')
+
+# Salvando como txt
+np.savetxt('array3.txt.npz', a, delimiter=",")
+
+# Mostrando as dimensões de um array
+print(vetor_array1.shape)
+
+# Mostrando o tamanho do array
+print(len(vetor_array1))
+
+# Mostrando as dimensões do array
+print(vetor_array1.ndim)
+
+# Mostrando os elementos do array
+print(vetor_array1.size)
 ```
+
 
 
 [Voltar ao sumário](#sumário)<br>
