@@ -3880,6 +3880,9 @@ print(vetor_array1.ndim)
 print(vetor_array1.size)
 ```
 
+```python
+Em desenvolvimento
+```
 
 
 [Voltar ao sumário](#sumário)<br>
