@@ -318,7 +318,7 @@ print(10%3)
 ---
 # 4 Tipos de dados e variáveis
 
-exemplo de uma variável com caracteres (strings)
+Exemplo de uma variável com caracteres (strings)
 
 ```python
 mensagem = "teste"
@@ -343,15 +343,15 @@ Alguns exemplos de tipos de dados, mais comuns:
 
 Outros tipos:
 
-Numéricos:	int, float, complex <br>
-Sequenciais:	list, tuple, range <br>
-Mapeamento/mapa/map:	dict <br>
-Set (conjunto):	set, frozenset <br>
-Binary:	bytes, bytearray, memoryview <br>
-None:	NoneType <br>
+* Numéricos:	int, float, complex <br>
+* Sequenciais:	list, tuple, range <br>
+* Mapeamento/mapa/map:	dict <br>
+* Set (conjunto):	set, frozenset <br>
+* Binary:	bytes, bytearray, memoryview <br>
+* None:	NoneType <br>
 
 
-exemplo:
+Exemplo:
 
 ```python
 var1 = 1 # isto é um comentario
@@ -362,7 +362,7 @@ var4 = True
 
 Se o código acima for executado, o resultado na tela será nada, pois apenas se armazenou os valores nas variáveis, não foram feitas nenhuma operação com elas.
 
-outro exemplo:
+Outro exemplo:
 
 ```python
 var1 = 1 
@@ -3378,7 +3378,7 @@ sbn.displot(medias_por_filme, kde=True)
 
 
 
-## 24.9. Gráfico com Matplotlib, KDE, Seaborn, pyplot
+## 24.9. Gráfico com Matplotlib, KDE, Seaborn, Pyplot
 
 
 ```
@@ -3850,7 +3850,7 @@ Em desenvolvimento
 ## 27.1 Numpy
 
 
-* Definição da Wikipedia:
+Definição da Wikipedia:
 
 NumPy é uma biblioteca para a linguagem de programação Python, que suporta o processamentode grandes, multi-dimensionais arranjos e matrizes, juntamente com uma grande coleção de funções matemáticas de alto nível para operar sobre estas matrizes. O ancestral do NumPy, o Numeric, foi originalmente criado por Jim Hugunin com contribuições de vários outros desenvolvedores. Em 2005, Travis Oliphant criou o NumPy incorporando recursos do Numarray concorrente no Numeric, com extensas modificações. NumPy é um software de código aberto e tem muitos colaboradores.
 
