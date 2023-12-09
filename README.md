@@ -3844,6 +3844,12 @@ Em desenvolvimento
 
 ## 27.1 Numpy
 
+
+```Definição da Wikipedia
+NumPy é uma biblioteca para a linguagem de programação Python, que suporta o processamento de grandes, multi-dimensionais arranjos e matrizes, juntamente com uma grande coleção de funções matemáticas de alto nível para operar sobre estas matrizes. O ancestral do NumPy, o Numeric, foi originalmente criado por Jim Hugunin com contribuições de vários outros desenvolvedores. Em 2005, Travis Oliphant criou o NumPy incorporando recursos do Numarray concorrente no Numeric, com extensas modificações. NumPy é um software de código aberto e tem muitos colaboradores.
+```
+
+
 ```python
 import numpy as np
 a = np.array([1,2,3,4,5])
