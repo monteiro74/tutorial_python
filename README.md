@@ -137,6 +137,9 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 ## Analise de dados
 [27.1 Numpy](#271-numpy)<br>
+
+<!--
+
 [27.2 Pandas](#272-pandas)<br>
 [27.3. Seaborn](#273-seaborn)<br>
 [27.4. Matplotlib](#274-matplotlib)<br>
@@ -190,6 +193,8 @@ https://github.com/monteiro74/lista_de_ferramentas
 [31.4. Scrapy]()<br>
 
 [Voltar ao sumário](#sumário)<br>
+
+-->
 
 ## Outros materiais:<br>
 [Lista de IDEs](#lista-de-ides)<br>
@@ -3893,6 +3898,9 @@ Em desenvolvimento
 ```
 
 
+
+<!--
+
 [Voltar ao sumário](#sumário)<br>
 
 ## 27.2 Pandas
@@ -4191,7 +4199,7 @@ Em desenvolvimento
 ---
 # Outros materiais
 
-
+-->
 
 # Lista de IDEs
 
