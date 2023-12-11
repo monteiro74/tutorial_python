@@ -3838,7 +3838,7 @@ window.mainloop()
 
 Outro exemplo:
 
-```python
+```
 Em desenvolvimento
 ```
 
