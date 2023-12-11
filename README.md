@@ -3894,7 +3894,7 @@ print(vetor_array1.ndim)
 print(vetor_array1.size)
 ```
 
-### Geração de números randômicos
+### 27.1.1 Geração de números randômicos
 
 ```python
 from numpy import random
@@ -3902,7 +3902,7 @@ x = random.randint(100)
 print(x)
 ```
 
-### Copy e View
+### 27.1.2 Copy e View
 
 ```python
 import numpy as np
@@ -3922,7 +3922,7 @@ O resultado será:
 [50  2  3  4  5]
 ```
 
-### Join, Split e Sort
+### 27.1.3 Join, Split e Sort
 
 ```python
 
