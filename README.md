@@ -3893,11 +3893,45 @@ print(vetor_array1.ndim)
 print(vetor_array1.size)
 ```
 
-Geração de números randômicos
+### Geração de números randômicos
+
+```python
+from numpy import random
+x = random.randint(100)
+print(x)
+```
+
+### Copy e View
+
+```python
+import numpy as np
+vetor1 = np.array([1, 2, 3, 4, 5])
+x = vetor1.copy()
+y = vetor1.view()
+vetor1[0] = 50
+print(vetor1)
+print(x)
+print(y)
+```
+
+O resultado será:
+```python
+[50  2  3  4  5]
+[1 2 3 4 5]
+[50  2  3  4  5]
+```
+
+### Join, Split e Sort
 
 ```python
 
 ```
+
+O resultado será:
+```python
+
+```
+
 
 ```python
 Em desenvolvimento
