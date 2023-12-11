@@ -3893,24 +3893,35 @@ print(vetor_array1.ndim)
 print(vetor_array1.size)
 ```
 
+Geração de números randômicos
+
+```python
+
+```
+
 ```python
 Em desenvolvimento
 ```
 
-
-
-<!--
 
 [Voltar ao sumário](#sumário)<br>
 
 ## 27.2 Pandas
 
+
+```python
+
+```
+
+
+
 ```python
 Em desenvolvimento
 ```
 
-
 [Voltar ao sumário](#sumário)<br>
+
+<!--
 
 ## 27.3. Seaborn
 
