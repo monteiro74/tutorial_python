@@ -3949,12 +3949,9 @@ Em desenvolvimento
 ```
 
 
-
 ```python
 Em desenvolvimento
 ```
-
-[Voltar ao sumário](#sumário)<br>
 
 <!--
 
