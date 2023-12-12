@@ -137,6 +137,9 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 ## Analise de dados
 [27.1 Numpy](#271-numpy)<br>
+[27.1.1 Geração de números randômicos](#2711-geração-de-números-randômicos)<br>
+[27.1.2 Copy e View](#2712-copy-e-view)<br>
+[27.1.3 Join, Split e Sort](#2713-join-split-e-sort)<br>
 [27.2 Pandas](#272-pandas)<br>
 
 
@@ -3898,7 +3901,7 @@ print(vetor_array1.size)
 
 ```python
 from numpy import random
-x = random.randint(100)
+x = random.randint(1000)
 print(x)
 ```
 
@@ -3945,16 +3948,6 @@ O resultado será:
 [0 1 2 3]
 [array([1, 2]), array([3, 4]), array([5, 6])]
 ```
-
-### 27.1.4 Random
-
-
-```python
-from numpy import random
-x = random.randint(1000)
-print(x)
-```
-
 
 [Voltar ao sumário](#sumário)<br>
 
