@@ -3925,17 +3925,36 @@ O resultado será:
 ### 27.1.3 Join, Split e Sort
 
 ```python
+import numpy as np
 
+vetor1 = np.array([1, 2, 3])
+vetor2 = np.array([4, 5, 6])
+
+vetor = np.concatenate((vetor1, vetor2))
+vetor3 = np.array_split(vetor, 3)
+vetor2 = np.array([3, 2, 0, 1])
+
+print(vetor1)
+print(np.sort(vetor2))
+print(vetor3)
 ```
 
 O resultado será:
 ```python
-
+[1 2 3]
+[0 1 2 3]
+[array([1, 2]), array([3, 4]), array([5, 6])]
 ```
+
+### 27.1.4 Random
 
 
 ```python
-Em desenvolvimento
+from numpy import random
+
+x = random.randint(1000)
+
+print(x)
 ```
 
 
