@@ -3951,9 +3951,7 @@ O resultado será:
 
 ```python
 from numpy import random
-
 x = random.randint(1000)
-
 print(x)
 ```
 
@@ -3962,6 +3960,9 @@ print(x)
 
 ## 27.2 Pandas
 
+Pandas é um biblioteca que permite trabalhar com dados tabulares. O conjunto de dados tabulares é chamado de dataframe.
+
+![https://pandas.pydata.org/docs/_images/01_table_dataframe.svg](https://pandas.pydata.org/docs/_images/01_table_dataframe.svg)
 
 ```python
 
