@@ -3963,6 +3963,9 @@ print(x)
 Pandas é um biblioteca que permite trabalhar com dados tabulares. O conjunto de dados tabulares é chamado de dataframe.
 
 ![https://pandas.pydata.org/docs/_images/01_table_dataframe.svg](https://pandas.pydata.org/docs/_images/01_table_dataframe.svg)
+Fonte da figura: https://pandas.pydata.org/docs/_images/01_table_dataframe.svg
+
+
 
 ```python
 
