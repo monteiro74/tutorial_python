@@ -3956,13 +3956,12 @@ O resultado será:
 Pandas é um biblioteca que permite trabalhar com dados tabulares. O conjunto de dados tabulares é chamado de dataframe.
 
 ![https://pandas.pydata.org/docs/_images/01_table_dataframe.svg](https://pandas.pydata.org/docs/_images/01_table_dataframe.svg)
-Fonte da figura: https://pandas.pydata.org/docs/_images/01_table_dataframe.svg
+
+<br>
+Fonte da figura: https://pandas.pydata.org/docs/_images/01_table_dataframe.svg<br>
+<br>
 
 
-
-```python
-
-```
 
 
 ```python
@@ -4003,8 +4002,9 @@ axs[2].set_title("'persp'\nfocal_length = 0.2", fontsize=10)
 plt.show()
 ```
 
-Fonte do exemplo acima: https://matplotlib.org/stable/gallery/mplot3d/projections.html
-
+<bt>
+Fonte do exemplo acima: https://matplotlib.org/stable/gallery/mplot3d/projections.html<br>
+<br>
 
 
 
