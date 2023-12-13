@@ -2837,6 +2837,8 @@ O resultado será:
 
 
 
+
+
 ### 22.5 Sum, Max, Min, Avg, Count
 
 ```python
@@ -2899,6 +2901,8 @@ O resultado será:
 (4,)
 ```
 [Voltar ao sumário](#sumário)<br>
+
+
 
 
 
@@ -2994,7 +2998,7 @@ O resultado será:
 
 
 ---
-# Plotagem de gráficos
+# E - Plotagem de gráficos
 
 ## 24. Plot e gráficos
 
