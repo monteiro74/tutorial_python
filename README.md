@@ -1876,7 +1876,7 @@ O resultado será:
 
 
 
-#### 11.10.3 Função Map
+### 11.10.3. Função Map
 
 Esta função aplica uma função aos elementos de uma lista.
 
@@ -1908,7 +1908,7 @@ O resultado será:
 
 
 
-#### 11.10.4 Função Reduce
+### 11.10.4. Função Reduce
 
 Permite aplica uma função especificada a todos os argumentos de uma lista.
 
@@ -1939,7 +1939,7 @@ O resultado será:
 
 
 
-#### 11.10.5 Função Zip
+### 11.10.5. Função Zip
 
 A função zip permite que itens possam "juntados" a partir de duas listas anteriores, criar uma nova lista com a junção destes.
 
@@ -1971,7 +1971,7 @@ O resultado será:
 
 
 
-## 12 Tuplas
+# 12. Tuplas
 
 Lista são dinâmicas e tuplas estáticas!
 
