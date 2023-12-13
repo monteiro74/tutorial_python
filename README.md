@@ -3961,12 +3961,42 @@ Pandas é um biblioteca que permite trabalhar com dados tabulares. O conjunto de
 Fonte da figura: https://pandas.pydata.org/docs/_images/01_table_dataframe.svg<br>
 <br>
 
-
-
+Todos os vetores no exemplo a baixo devem ter a mesma quantidade de elementos. Já é aceito pela comunidade instanciar a biblioteca com o apelido de "pd".
+Exemplo do uso da biblioteca pandas:
 
 ```python
-Em desenvolvimento
+import pandas as pd
+
+df = pd.DataFrame(
+    {
+        "Nome": [
+            "Ana",
+            "Barbara",
+            "Carlos",
+            "Deb",
+            "Eloisa",
+            "Fabio"
+                ],
+        "Idade": [25, 26, 27, 45, 46, 48],
+        "Sexo": ["F", "F", "M", "F", "F", "M"],
+    }
+)
+
+print(df)
 ```
+
+O resultado será:
+
+```
+      Nome  Idade Sexo
+0      Ana     25    F
+1  Barbara     26    F
+2   Carlos     27    M
+3      Deb     45    F
+4   Eloisa     46    F
+5    Fabio     48    M
+```
+
 
 
 # 3D
