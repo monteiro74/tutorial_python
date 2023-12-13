@@ -209,8 +209,6 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 
 
-
-
 ---
 # A - Conceitos e exemplos gerais da linguagem
 ## 1 Comando print
@@ -2338,7 +2336,7 @@ Atenção: adicionar mais exemplos da standard library.
 
 
 ---
-## B - Programação Orientada a Objetos
+# B - Programação Orientada a Objetos
 
 ## 21 Criando classes
 
@@ -2650,6 +2648,8 @@ Chamando o Sedan.
 
 
 ---
+# C - Banco MySQL (MariaDB)
+
 ## 22 Python com MySQL
 
 
@@ -2663,8 +2663,7 @@ python -m pip install mysql-connector-python
 
 
 
-
-### 22.1 SQL create database
+#### 22.1 SQL create database
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2697,9 +2696,6 @@ Cria o banco de dados: escola
 ```
 
 [Voltar ao sumário](#sumário)<br>
-
-
-
 
 
 
@@ -2739,11 +2735,6 @@ Cria a tabela: alunos
 ```
 
 [Voltar ao sumário](#sumário)<br>
-
-
-
-
-
 
 
 
@@ -2811,9 +2802,6 @@ O resultado será:
 
 
 
-
-
-
 ### 22.4 SQL Select
 
 ```python
@@ -2848,10 +2836,6 @@ O resultado será:
 ```
 
 [Voltar ao sumário](#sumário)<br>
-
-
-
-
 
 
 
@@ -2923,7 +2907,6 @@ O resultado será:
 
 
 
-
 ### 22.6 SQL drop table e drop database
 
 ```python
@@ -2973,6 +2956,8 @@ https://www.db-fiddle.com/
 
 
 ---
+# D - Banco MongoDB
+
 ## 23. Python com MongoDB
 
 
@@ -3011,15 +2996,15 @@ O resultado será:
 
 
 
-
-
 ---
+# Plotagem de gráficos
+
 ## 24. Plot e gráficos
 
 ```python
 Em desenvolvimento
 ```
-## 24.1. Gráfico com matplotlib
+### 24.1. Gráfico com matplotlib
 
 ```python
 import matplotlib.pyplot as plt1
@@ -3385,9 +3370,9 @@ sbn.catplot(x="original_language", kind="count", data=filmes)
 
 
 
-
-
 ---
+# F - Estatísticas
+
 ## 25. Exemplos diversos com estatísticas
 
 Exemplo:
@@ -3438,7 +3423,6 @@ desvio padrão:  18.019273428083416
 
 
 
-
 ### 25.2 Percentil e porcentagem
 
 ```python
@@ -3478,7 +3462,6 @@ arredondando:  16.13
 
 
 
-
 ### 25.3. Regressão
 
 Definição1:
@@ -3490,7 +3473,6 @@ Em desenvolvimento
 Definição2:
 
 [Voltar ao sumário](#sumário)<br>
-
 
 
 
