@@ -1992,13 +1992,10 @@ O resultado será:
 comprimento:  4
 ```
 
-
 [Voltar ao sumário](#sumário)<br>
 
 
-
-
-## 13 Sets
+# 13. Sets
 
 Com os conjuntos é possível armazenar multiplos valores em uma única variável. Os conjuntos não podem ser ordenados.
 
@@ -2018,9 +2015,7 @@ print(set1)
 [Voltar ao sumário](#sumário)<br>
 
 
-
-
-## 14 Dicionários
+# 14. Dicionários
 
 O dicionário é um conjunto de elementos do tipo chave e valor. O dicionário não obedece uma ordem.
 
@@ -2069,7 +2064,7 @@ D:DANIEL
 
 
 
-### 14.1 Função items
+## 14.1. Função items
 
 ```python
 # declarações/atribuições
@@ -2094,8 +2089,7 @@ O resultado será:
 
 
 
-
-### 14.2 Função values e keys
+## 14.2. Função values e keys
 
 ```python
 # declarações/atribuições
@@ -2139,8 +2133,7 @@ D
 
 
 
-
-## 15 Comparação List, Tuple, Set, Dictionary
+# 15. Comparação List, Tuple, Set, Dictionary
 
 | List | Tuple | Dictionary | Set
 | --- | --- | --- | --- |
@@ -2154,10 +2147,7 @@ Fonte: https://www.devopsschool.com/blog/python-tutorials-difference-between-lis
 
 
 
-
-
-
-## 16 Números aleatórios
+# 16. Números aleatórios
 
 
 ```python
@@ -2210,7 +2200,7 @@ O resultado poderá ser:
 
 
 
-## 17 Arrays
+# 17. Arrays
 
 Python não tem suporte a arrays (matrizes), veja listas.
 
@@ -2219,7 +2209,7 @@ Python não tem suporte a arrays (matrizes), veja listas.
 
 
 
-## 18 Módulos
+# 18. Módulos
 
 Os módulos são outros programas feitos em python que podem ser chamados, é uma forma de se estruturar funções em bibliotecas de códigos separados em outros arquivos.
 
@@ -2259,7 +2249,7 @@ a variavel recebeu o valor:  abcde
 
 
 
-## 19 Input
+# 19. Input
 
 
 ```python
@@ -2282,7 +2272,7 @@ Foi digitado: teste
 
 
 
-## 20 Standard Library
+# 20. Standard Library
 
 A documentação oficial esta em: https://docs.python.org/3/library/
 
@@ -2316,7 +2306,7 @@ Atenção: adicionar mais exemplos da standard library.
 ---
 # B - Programação Orientada a Objetos
 
-## 21 Criando classes
+# 21. Criando classes
 
 Criando uma classe sem atributos e sem métodos:
 
@@ -2423,7 +2413,7 @@ idade:  25
 
 
 
-### 21.1 Instanciando objetos, atribuindo valores
+## 21.1. Instanciando objetos, atribuindo valores
 
 Exemplo:
 
