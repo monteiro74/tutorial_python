@@ -2454,7 +2454,7 @@ pedro tem 30 anos
 
 
 
-### 21.2 Sub classes e herança
+## 21.2. Sub classes e herança
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2522,7 +2522,7 @@ Humanoide pode correr
 
 
 
-### 21.3 Encapsulação
+## 21.3. Encapsulação
 
 Exemplo:
 
@@ -2568,7 +2568,7 @@ Salario base: 3000
 
 
 
-### 21.4 Polimorfismo
+## 21.4. Polimorfismo
 
 Exemplo:
 
@@ -2618,7 +2618,7 @@ Chamando o Sedan.
 ---
 # C - Banco MySQL (MariaDB)
 
-## 22 Python com MySQL
+# 22. Python com MySQL
 
 
 Para instalar o conector mysql no python use o comando no promt:
@@ -2631,7 +2631,7 @@ python -m pip install mysql-connector-python
 
 
 
-#### 22.1 SQL create database
+## 22.1. SQL create database
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2669,7 +2669,7 @@ Cria o banco de dados: escola
 
 
 
-### 22.2 SQL create table
+## 22.2. SQL create table
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2707,7 +2707,7 @@ Cria a tabela: alunos
 
 
 
-### 22.3 SQL Insert, Delete, Update
+## 22.3. SQL Insert, Delete, Update
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2767,10 +2767,7 @@ O resultado será:
 
 
 
-
-
-
-### 22.4 SQL Select
+## 22.4. SQL Select
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2810,7 +2807,7 @@ O resultado será:
 
 
 
-### 22.5 Sum, Max, Min, Avg, Count
+## 22.5. Sum, Max, Min, Avg, Count
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2879,7 +2876,7 @@ O resultado será:
 
 
 
-### 22.6 SQL drop table e drop database
+## 22.6. SQL drop table e drop database
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2930,7 +2927,7 @@ https://www.db-fiddle.com/
 ---
 # D - Banco MongoDB
 
-## 23. Python com MongoDB
+# 23. Python com MongoDB
 
 
 ```python
@@ -2971,12 +2968,12 @@ O resultado será:
 ---
 # E - Plotagem de gráficos
 
-## 24. Plot e gráficos
+# 24. Plot e gráficos
 
 ```python
 Em desenvolvimento
 ```
-### 24.1. Gráfico com matplotlib
+## 24.1. Gráfico com matplotlib
 
 ```python
 import matplotlib.pyplot as plt1
@@ -3024,7 +3021,7 @@ plt1.show()
 
 
 
-### 24.2. Gráfico pizza
+## 24.2. Gráfico pizza
 
 ```python
 import matplotlib.pyplot as plt1
@@ -3054,7 +3051,7 @@ plt1.show()
 
 
 
-#### 24.2.1. Gráfico de pizza com matplotlib
+### 24.2.1. Gráfico de pizza com matplotlib
 
 ```
 Em desenvolvimento
@@ -3084,7 +3081,7 @@ plt1.pie(filmes_por_categoria["total"], labels = filmes_por_categoria["original_
 
 
 
-### 24.3. Grafico com numpy
+## 24.3. Grafico com numpy
 
 np.mean, função mean do numpy é usada para calcular a média aritmética ou média dos elementos da matriz junto com o eixo especificado ou eixo múltiplo.
 
@@ -3114,7 +3111,7 @@ ax.barh(group_nomes, group_dados)
 
 
 
-### 24.4 Gráfico da distribuição normal
+## 24.4. Gráfico da distribuição normal
 
 ```python
 # -*- coding: utf-8 -*-
@@ -3141,7 +3138,7 @@ plt1.show()
 
 
 
-### 24.5 Gráfico de dispersão
+## 24.5. Gráfico de dispersão
 
 ```python
 # -*- coding: utf-8 -*-
@@ -3162,7 +3159,7 @@ plt.show()
 
 
 
-### 24.6 Gráfico boxplot com seaborn
+## 24.6. Gráfico boxplot com seaborn
 
 Definição: Seaborn...
 
@@ -3194,7 +3191,7 @@ sbn.boxplot(notas.nota)
 
 
 
-### 24.7 Gráfico de histograma
+## 24.7. Gráfico de histograma
 
 ```python
 # -*- coding: utf-8 -*-
@@ -3229,7 +3226,7 @@ print(notas.nota.plot(kind='hist'))
 
 
 
-### 24.8 Gráfico de histogramas com Seabor e KDE
+## 24.8. Gráfico de histogramas com Seabor e KDE
 
 ```
 KDE (kernel density estimates)
@@ -3277,7 +3274,7 @@ sbn.displot(medias_por_filme, kde=True)
 
 
 
-### 24.9. Gráfico com Matplotlib, KDE, Seaborn, Pyplot
+## 24.9. Gráfico com Matplotlib, KDE, Seaborn, Pyplot
 
 
 ```
@@ -3319,7 +3316,7 @@ plt1.title("titulo de gráfico aqui !")
 
 
 
-#### 24.9.1. Gráfico de categorias com Seaborn e parâmetro kind
+### 24.9.1. Gráfico de categorias com Seaborn e parâmetro kind
 
 ```
 Em desenvolvimento
@@ -3345,7 +3342,7 @@ sbn.catplot(x="original_language", kind="count", data=filmes)
 ---
 # F - Estatísticas
 
-## 25. Exemplos diversos com estatísticas
+# 25. Exemplos diversos com estatísticas
 
 Exemplo:
 
@@ -3353,7 +3350,7 @@ Exemplo:
 Em desenvolvimento
 ```
 
-### 25.1 Media, mediana, moda e desvio padrão
+## 25.1 Media, mediana, moda e desvio padrão
 
 A média (mean) de um conjunto de dados é encontrada somando-se todos os números do conjunto de dados e então dividindo o resultado pelo número de valores do conjunto.<br>
 A mediana (median) é o valor do meio quando o conjunto de dados está ordenado do menor para o maior. <br>
@@ -3395,7 +3392,7 @@ desvio padrão:  18.019273428083416
 
 
 
-### 25.2 Percentil e porcentagem
+## 25.2. Percentil e porcentagem
 
 ```python
 # -*- coding: utf-8 -*-
@@ -3434,7 +3431,7 @@ arredondando:  16.13
 
 
 
-### 25.3. Regressão
+## 25.3. Regressão
 
 Definição1:
 
@@ -3448,7 +3445,7 @@ Definição2:
 
 
 
-#### 25.3.1. Regressão linear
+### 25.3.1. Regressão linear
 
 Definição: 
 
@@ -3522,7 +3519,7 @@ O resultado será:
 
 
 
-#### 25.3.2. Regressão polinomial
+### 25.3.2. Regressão polinomial
 
 Definição:
 
@@ -3554,7 +3551,7 @@ plt1.show()
 
 
 
-### 25.4 Contagem de valores, média e mediana com pandas dataframe
+### 25.4. Contagem de valores, média e mediana com pandas dataframe
 
 ```python
 # -*- coding: utf-8 -*-
@@ -3711,7 +3708,9 @@ Name: nota, dtype: float64
 
 
 ---
-## 26. GUI com Pyforms
+# G - GUI
+
+# 26. GUI com Pyforms
 
 Instalação do PyForms, via command prompt:<br>
 pip install pyforms
@@ -3732,7 +3731,6 @@ btn.grid(column=1, row=0)
 window.mainloop()
 ```
 
-Outro exemplo:
 
 ```
 Em desenvolvimento
@@ -3741,9 +3739,9 @@ Em desenvolvimento
 [Voltar ao sumário](#sumário)<br>
 
 ---
-# Analise de dados
+# H - Analise de dados
 
-### 27.1 Numpy
+## 27.1 Numpy
 
 
 **Definição da Wikipedia:**
@@ -3789,7 +3787,7 @@ print(vetor_array1.ndim)
 print(vetor_array1.size)
 ```
 
-#### 27.1.1 Geração de números randômicos
+### 27.1.1. Geração de números randômicos
 
 ```python
 from numpy import random
@@ -3797,7 +3795,7 @@ x = random.randint(1000)
 print(x)
 ```
 
-#### 27.1.2 Copy e View
+### 27.1.2. Copy e View
 
 ```python
 import numpy as np
@@ -3817,7 +3815,7 @@ O resultado será:
 [50  2  3  4  5]
 ```
 
-### 27.1.3 Join, Split e Sort
+### 27.1.3. Join, Split e Sort
 
 ```python
 import numpy as np
@@ -3843,7 +3841,7 @@ O resultado será:
 
 [Voltar ao sumário](#sumário)<br>
 
-## 27.2 Pandas
+## 27.2. Pandas
 
 Pandas é um biblioteca que permite trabalhar com dados tabulares. O conjunto de dados tabulares é chamado de dataframe.
 
