@@ -20,7 +20,7 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 # Sumário:
 
-## Conceitos e exemplos gerais da linguagem:<br>
+## A - Conceitos e exemplos gerais da linguagem:<br>
 [1. Comando print](#1-comando-print) <br>
 [2. Comentário](#2-comentário) <br>
 [3. Operações matemáticas](#3-operações-matemáticas) <br>
@@ -83,14 +83,14 @@ https://github.com/monteiro74/lista_de_ferramentas
 [19. Inputs](#19-input)<br>
 [20. Standard library](#20-standard-library)<br>
 
-## Programação Orientada a Objetos<br>
+## B - Programação Orientada a Objetos<br>
 [21. Python orientado a objetos](#21-python-orientado-a-objetos)<br>
 [21.1. Instanciando objetos e atribuindo valores](#211-instanciando-objetos-atribundo-valores)<br>
 [21.2. Sub classes e herança](#212-sub-classes-e-herança)<br>
 [21.3. Encapsulação](#213-encapsulação)<br>
 [21.4. Polimorfismo](#214-polimorfismo)<br>
 
-## Banco MySQL(MariaDB)<br>
+## C - Banco MySQL(MariaDB)<br>
 [22 Python com MySQL](#22-python-com-mysql)<br>
 [22.1. SQL create database](#221-sql-create-database)<br>
 [22.2. SQL create table](#222-sql-create-table)<br>
@@ -99,10 +99,10 @@ https://github.com/monteiro74/lista_de_ferramentas
 [22.5. Sum, Max, Min, Avg, Count](#225-sum-max-min-avg-count)<br>
 [22.6. SQL drop table e drop databasae](#226-sql-drop-table-e-drop-database)<br>
 
-## Banco MongoDB<br>
+## D - Banco MongoDB<br>
 [23 Python com MongoDB](#23-python-com-mongodb)<br>
 
-## Plot<br>
+## E - Plot<br>
 [24 Plot e gráfico](#24-plot-e-gráficos)<br>
 [24.1. Gráfico com matplotlib](#241-gráfico-com-matplotlib)<br>
 [24.2. Gráfico pizza](#242-gráfico-pizza)<br>
@@ -118,7 +118,7 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 
 
-## Estatísticas<br>
+## F - Estatísticas<br>
 [25. Exemplos diversos com estatísticas](#25-exemplos-diversos-com-estatísticas)<br>
 [25.1 Media, mediana, moda e desvio padrão](#251-media-mediana-moda-e-desvio-padrão)<br>
 [25.2 Percentil e porcentagem](#252-percentil-e-porcentagem)<br>
@@ -129,13 +129,12 @@ https://github.com/monteiro74/lista_de_ferramentas
 [25.5. Média, desvio padrão, mínimo, máximo. pandas dataframe](#255-média-desvio-padrão-mínimo-máximo-pandas-dataframe)<br>
 
 
-## GUI<br>
+## G - GUI<br>
 [26 GUI com pyforms](#26-gui-com-pyforms)<br>
 
 
 
-
-## Analise de dados
+## H - Analise de dados
 [27.1 Numpy](#271-numpy)<br>
 [27.1.1 Geração de números randômicos](#2711-geração-de-números-randômicos)<br>
 [27.1.2 Copy e View](#2712-copy-e-view)<br>
@@ -213,7 +212,8 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 
 ---
-# 1 Comando print
+# A - Conceitos e exemplos gerais da linguagem
+## 1 Comando print
 
 Impressão na tela, exemplo
 ```python
@@ -225,7 +225,7 @@ print("teste")
 
 
 ---
-# 2 Comentário
+## 2 Comentário
 
 Usando "#"
 
@@ -238,7 +238,7 @@ print("teste2")
 print("teste3")
 ```
 
-## 2.1 Codigo com acentos
+### 2.1 Codigo com acentos
 
 ```python
 # -*- coding: utf8-8 -*-
@@ -249,7 +249,7 @@ print("Olá mundo!")
 
 
 ---
-# 3 Operações matemáticas
+## 3 Operações matemáticas
 
 ```python
 print(2+2)
@@ -258,7 +258,7 @@ print(2*2)
 print(2/2)
 ```
 
-## 3.1 Python com números
+### 3.1 Python com números
 
 O python utiliza 3 tipos numéricos: int, float e complex
 
@@ -295,13 +295,13 @@ Exemplo de complexo ou científico: (4.35+4.55j)
 
 
 
-## 3.2 Exponenciação
+### 3.2 Exponenciação
 
 ```python
 print(2**3)
 ```
 
-## 3.3 Módulo
+### 3.3 Módulo
 
 ```python
 print(10/3)
@@ -320,7 +320,7 @@ print(10%3)
 
 
 ---
-# 4 Tipos de dados e variáveis
+## 4 Tipos de dados e variáveis
 
 Exemplo de uma variável com caracteres (strings)
 
@@ -388,9 +388,9 @@ print(var1)
 [Voltar ao sumário](#sumário)<br>
 
 
-## 4.1 Operações com strings
+### 4.1 Operações com strings
 
-### 4.1.1 Concatenando strings
+#### 4.1.1 Concatenando strings
 
 ```python
 # primeiro declaramos as variaveis
@@ -412,7 +412,7 @@ aula de python
 [Voltar ao sumário](#sumário)<br>
 
 
-### 4.1.2 Tamanho de uma string
+#### 4.1.2 Tamanho de uma string
 
 ```python
 # primeiro declaramos as variaveis
@@ -433,7 +433,7 @@ O resultado será:
 [Voltar ao sumário](#sumário)<br>
 
 
-### 4.1.3 Percorrer uma string
+#### 4.1.3 Percorrer uma string
 
 ```python
 # primeiro declaramos as variaveis
@@ -453,7 +453,7 @@ d
 
 
 
-### 4.1.4 Selecionando partes da string
+#### 4.1.4 Selecionando partes da string
 
 ```python
 # primeiro declaramos as variaveis
@@ -474,7 +474,7 @@ bcde
 
 
 
-### 4.1.5 String em minúsculo, capitalize e maiúsculo
+#### 4.1.5 String em minúsculo, capitalize e maiúsculo
 
 ```python
 # primeiro declaramos as variaveis
@@ -499,7 +499,7 @@ ABCDEFGHIJKLM
 
 
 
-### 4.1.6 Função strip, split
+#### 4.1.6 Função strip, split
 
 Strip, remove espaços em branco <br>
 
@@ -538,7 +538,7 @@ O resultado será:
 [Voltar ao sumário](#sumário)<br>
 
 
-### 4.1.7 Busca e substituição por substring
+#### 4.1.7 Busca e substituição por substring
 
 Exemplo de buscas em strings
 
@@ -586,7 +586,7 @@ feijao, banana, arroz, carne, leite
 [Voltar ao sumário](#sumário)<br>
 
 
-### 4.1.8 Formas de impressao de string
+#### 4.1.8 Formas de impressao de string
 
 ```python
 # -*- coding: utf-8 -*-
@@ -615,7 +615,7 @@ Este é um Tutorial sobre python
 
 
 
-## 4.2. Local e Global
+### 4.2. Local e Global
 
 Variáveis locais e globais ou escopo local e global.
 
@@ -645,11 +645,11 @@ Exemplo de variavel: global
 
 
 ---
-# 5 Operadores
+## 5 Operadores
 
 Recordando que = é um operador de atribuição.
 
-## 5.1 Operadores matemáticos
+### 5.1 Operadores matemáticos
 
 Revisão de alguns operadores..
 
@@ -662,7 +662,7 @@ Revisão de alguns operadores..
 | ** | Exponenciação |
 | % | Módulo |
 
-## 5.2 Operadores relacionais
+### 5.2 Operadores relacionais
 
 Operadores relacionais são usados para fazer comparações, por exemplo:
 
@@ -704,7 +704,7 @@ False
 [Voltar ao sumário](#sumário)<br>
 
 
-## 5.3 Operadores lógicos
+### 5.3 Operadores lógicos
 
 Permite comparações entre valores das variáveis
 
@@ -738,12 +738,8 @@ True
 
 
 
-
-
-
-
 ---
-# 6 Tratamento de exceções
+## 6 Tratamento de exceções
 
 ```python
 # declarações/atribuições
@@ -781,16 +777,8 @@ ocorreu um erro!
 
 
 
-
-
-
-
-
-
-
-
 ---
-# 7 Estruturas condicionais (controle de fluxo)
+## 7 Estruturas condicionais (controle de fluxo)
 
 Também chamados de comandos estruturais.
 Servem para realizar avaliações ou testes entre variáveis.
@@ -889,7 +877,7 @@ Maior que um
 
 [Voltar ao sumário](#sumário)<br>
 
-## 7.1 Break
+### 7.1 Break
 
 
 ```python
@@ -912,7 +900,7 @@ O resultado acima será:
 
 [Voltar ao sumário](#sumário)<br>
 
-## 7.2 Continue
+### 7.2 Continue
 
 ```python
 # -*- coding: utf-8 -*-
@@ -941,7 +929,7 @@ numero par 4
 
 
 
-## 7.3 Pass
+### 7.3 Pass
 
 Pass pode ser usado quando existe a necessita de uma comando/parâmetro, mas ele não tratá efeito e requerer uma ação.
 
@@ -978,7 +966,7 @@ class Classe1:
 
 
 
-## 7.4 Match e case
+### 7.4 Match e case
 
 Match e case, são equivalentes ao Swtich do C# e Java.
 
@@ -1018,11 +1006,11 @@ Digitado: 2
 
 
 ---
-# 8 Estruturas de repetição
+## 8 Estruturas de repetição
 
 Também são chamados de laços de repetição ou iteradores. Iterar é repetir. Desta forma um bloco (ou várias linhas de código) serão repetidas até que uma condição seja satisfeita.<br>
 
-## 8.1 Laço while
+### 8.1 Laço while
 
 ```python
 # primeiro declaramos as variaveis
@@ -1065,7 +1053,7 @@ O resultado acima será:
 
 
 
-### 8.1.1 Laço while true
+#### 8.1.1 Laço while true
 
 ```python
 # -*- coding: utf-8 -*-
@@ -1091,7 +1079,7 @@ O resultado acima será:
 
 
 
-## 8.2 Laço for
+### 8.2 Laço for
 
 Este laço usado para percorrer uma estrutura de dados, como uma lista, por exemplo:
 
@@ -1122,7 +1110,7 @@ True
 
 
 
-## 8.3 Laço for e range
+### 8.3 Laço for e range
 
 ```python
 # em seguida realizamos as operações
@@ -1150,7 +1138,7 @@ O resultado será:
 
 
 ---
-# 9 Funções
+## 9 Funções
 
 Funções são blocos de código. Em python uma função vem precedida da palavra def, seguido do nome e os parâmetros da função. Uma função que já foi utilizada com frequencia até o momento foi print(). O bloco de comandos vai depois de uma tabulação.
 
@@ -1189,7 +1177,7 @@ O resultado será:
 4
 ```
 
-## 9.1. Função recursiva
+### 9.1. Função recursiva
 
 Exemplo de chamada recursiva:
 
@@ -1235,7 +1223,7 @@ exemplo de chamada recursiva:
 [Voltar ao sumário](#sumário)<br>
 
 
-## 9.2 Documentação de função
+### 9.2 Documentação de função
 
 
 ```python
@@ -1265,7 +1253,7 @@ Chamada a função funcao1
 
 
 ---
-# 10 Arquivos
+## 10 Arquivos
 
 O python pode manipular arquivos. Para abrir um arquivo é utilizada a função open. Os modos de trabalho com arquivos são: <br>
 
@@ -1281,7 +1269,7 @@ O python pode manipular arquivos. Para abrir um arquivo é utilizada a função 
 
 
 
-## 10.1 Funções read, readline e readlines
+### 10.1 Funções read, readline e readlines
 
 Exemplo de uso das funções para manipular arquivos:
 
@@ -1299,7 +1287,7 @@ O resultado será:
 <_io.TextIOWrapper name='arquivo_teste.txt' mode='r' encoding='cp1252'>
 ```
 
-### 10.1.1 Função readlines
+#### 10.1.1 Função readlines
 
 Exemplo do uso de readlines:
 
@@ -1342,7 +1330,7 @@ caderno
 
 [Voltar ao sumário](#sumário)<br>
 
-### 10.1.2 Função read
+#### 10.1.2 Função read
 
 ```python
 # declarações/atribuições
@@ -1385,7 +1373,7 @@ caneta
 
 
 
-## 10.2 Criar arquivos
+### 10.2 Criar arquivos
 
 O parâmetro w esta criando o arquivo.
 
@@ -1414,14 +1402,8 @@ arquivo2.close()
 
 
 
-
-
-
-
-
-
 ---
-# 11 Listas
+## 11 Listas
 
 São um conjunto de dados para armazenar multiplos itens em uma única variável.
 
@@ -1448,7 +1430,7 @@ O resultado será:
 
 
 
-## 11.1 Acessando elementos individuais da lista
+### 11.1 Acessando elementos individuais da lista
 
 Neste exemplo, queremos acessar um elemento específico da lista:
 
@@ -1488,7 +1470,7 @@ IndexError: list index out of range
 
 
 
-## 11.2 Percorrer elementos de uma listas
+### 11.2 Percorrer elementos de uma listas
 
 Usando o laço for:
 
@@ -1519,7 +1501,7 @@ True
 
 
 
-## 11.3 Tamanho de listas
+### 11.3 Tamanho de listas
 
 Para descobrir o tamanho (em quantidade de elementos) de uma lista, utiliza-se a função len.
 
@@ -1540,7 +1522,7 @@ O resultado será:
 
 [Voltar ao sumário](#sumário)<br>
 
-## 11.4 Adicionando itens na lista
+### 11.4 Adicionando itens na lista
 
 
 ```python
@@ -1562,7 +1544,7 @@ O resultado será:
 
 
 
-## 11.5 Procurar um elemento na lista
+### 11.5 Procurar um elemento na lista
 
 ```python
 # declarações/atribuições
@@ -1585,7 +1567,7 @@ elemento ARROZ encontrado
 
 [Voltar ao sumário](#sumário)<br>
 
-## 11.6 Subtraindo elementos de uma lista
+### 11.6 Subtraindo elementos de uma lista
 
 ```python
 # declarações/atribuições
@@ -1622,7 +1604,7 @@ Apaga todos os itens da lista
 
 
 
-## 11.7 Ordenando itens da lista, sort
+### 11.7 Ordenando itens da lista, sort
 
 ```python
 # declarações/atribuições
@@ -1643,7 +1625,7 @@ O resultado será:
 
 
 
-### 11.7.1 Sort decrescente/decrescente
+#### 11.7.1 Sort decrescente/decrescente
 
 ```python
 # declarações/atribuições
@@ -1669,7 +1651,7 @@ Imprime crescente:
 
 [Voltar ao sumário](#sumário)<br>
 
-### 11.7.2 Sort inverter itens
+#### 11.7.2 Sort inverter itens
 
 
 ```python
@@ -1689,7 +1671,7 @@ O resultado será:
 
 [Voltar ao sumário](#sumário)<br>
 
-## 11.8 Ordenando itens da lista, sorted
+### 11.8 Ordenando itens da lista, sorted
 
 ```python
 # declarações/atribuições
@@ -1710,7 +1692,7 @@ O resultado será:
 
 
 
-## 11.9 Pop
+### 11.9 Pop
 
 ```python
 # -*- coding: utf-8 -*-
@@ -1748,11 +1730,11 @@ O resultado será:
 
 
 ---
-## 11.10 Funções para tratamento de listas
+### 11.10 Funções para tratamento de listas
 
 Exemplo no uso de funções para tratamento de listas:
 
-### 11.10.1 List comprehensions
+#### 11.10.1 List comprehensions
 
 É uma funcionalidade que permite a geração de novas listas.
 
@@ -1842,10 +1824,7 @@ O resultado será:
 
 
 
-
-
-
-### 11.10.2 Função Enumerate
+#### 11.10.2 Função Enumerate
 
 ```python
 # -*- coding: utf-8 -*-
@@ -1921,7 +1900,7 @@ O resultado será:
 
 
 
-### 11.10.3 Função Map
+#### 11.10.3 Função Map
 
 Esta função aplica uma função aos elementos de uma lista.
 
@@ -1953,7 +1932,7 @@ O resultado será:
 
 
 
-### 11.10.4 Função Reduce
+#### 11.10.4 Função Reduce
 
 Permite aplica uma função especificada a todos os argumentos de uma lista.
 
@@ -1984,7 +1963,7 @@ O resultado será:
 
 
 
-### 11.10.5 Função Zip
+#### 11.10.5 Função Zip
 
 A função zip permite que itens possam "juntados" a partir de duas listas anteriores, criar uma nova lista com a junção destes.
 
@@ -2015,12 +1994,8 @@ O resultado será:
 
 
 
-
-
-
-
 ---
-# 12 Tuplas
+## 12 Tuplas
 
 Lista são dinâmicas e tuplas estáticas!
 
@@ -2046,12 +2021,8 @@ comprimento:  4
 
 
 
-
-
-
-
 ---
-# 13 Sets
+## 13 Sets
 
 Com os conjuntos é possível armazenar multiplos valores em uma única variável. Os conjuntos não podem ser ordenados.
 
@@ -2072,9 +2043,8 @@ print(set1)
 
 
 
-
 ---
-# 14 Dicionários
+## 14 Dicionários
 
 O dicionário é um conjunto de elementos do tipo chave e valor. O dicionário não obedece uma ordem.
 
@@ -2123,7 +2093,7 @@ D:DANIEL
 
 
 
-## 14.1 Função items
+### 14.1 Função items
 
 ```python
 # declarações/atribuições
@@ -2149,7 +2119,7 @@ O resultado será:
 
 
 
-## 14.2 Função values e keys
+### 14.2 Função values e keys
 
 ```python
 # declarações/atribuições
@@ -2193,12 +2163,8 @@ D
 
 
 
-
-
-
-
 ---
-# 15 Comparação List, Tuple, Set, Dictionary
+## 15 Comparação List, Tuple, Set, Dictionary
 
 | List | Tuple | Dictionary | Set
 | --- | --- | --- | --- |
@@ -2215,7 +2181,7 @@ Fonte: https://www.devopsschool.com/blog/python-tutorials-difference-between-lis
 
 
 ---
-# 16 Números aleatórios
+## 16 Números aleatórios
 
 
 ```python
@@ -2267,12 +2233,8 @@ O resultado poderá ser:
 
 
 
-
-
-
-
 ---
-# 17 Arrays
+## 17 Arrays
 
 Python não tem suporte a arrays (matrizes), veja listas.
 
@@ -2281,7 +2243,7 @@ Python não tem suporte a arrays (matrizes), veja listas.
 
 
 ---
-# 18 Módulos
+## 18 Módulos
 
 Os módulos são outros programas feitos em python que podem ser chamados, é uma forma de se estruturar funções em bibliotecas de códigos separados em outros arquivos.
 
@@ -2321,7 +2283,7 @@ a variavel recebeu o valor:  abcde
 
 
 ---
-# 19 Input
+## 19 Input
 
 
 ```python
@@ -2344,7 +2306,7 @@ Foi digitado: teste
 
 
 ---
-# 20 Standard Library
+## 20 Standard Library
 
 A documentação oficial esta em: https://docs.python.org/3/library/
 
@@ -2372,20 +2334,13 @@ tangente:  -3.380515006246586
 Atenção: adicionar mais exemplos da standard library.
 ```
 
-
 [Voltar ao sumário](#sumário)<br>
 
 
-
-
-
-
-
-
-
-
 ---
-# 21 Python orientado a objetos
+## B - Programação Orientada a Objetos
+
+## 21 Criando classes
 
 Criando uma classe sem atributos e sem métodos:
 
@@ -2492,9 +2447,7 @@ idade:  25
 
 
 
-
-
-## 21.1 Instanciando objetos, atribuindo valores
+### 21.1 Instanciando objetos, atribuindo valores
 
 Exemplo:
 
@@ -2535,11 +2488,7 @@ pedro tem 30 anos
 
 
 
-
-
-
-
-## 21.2 Sub classes e herança
+### 21.2 Sub classes e herança
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2607,12 +2556,7 @@ Humanoide pode correr
 
 
 
-
-
-
-
-
-## 21.3 Encapsulação
+### 21.3 Encapsulação
 
 Exemplo:
 
@@ -2658,9 +2602,7 @@ Salario base: 3000
 
 
 
-
-
-## 21.4 Polimorfismo
+### 21.4 Polimorfismo
 
 Exemplo:
 
@@ -2707,12 +2649,8 @@ Chamando o Sedan.
 
 
 
-
-
-
-
 ---
-# 22 Python com MySQL
+## 22 Python com MySQL
 
 
 Para instalar o conector mysql no python use o comando no promt:
@@ -2726,7 +2664,7 @@ python -m pip install mysql-connector-python
 
 
 
-## 22.1 SQL create database
+### 22.1 SQL create database
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2767,7 +2705,7 @@ Cria o banco de dados: escola
 
 
 
-## 22.2 SQL create table
+### 22.2 SQL create table
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2810,7 +2748,7 @@ Cria a tabela: alunos
 
 
 
-## 22.3 SQL Insert, Delete, Update
+### 22.3 SQL Insert, Delete, Update
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2876,7 +2814,7 @@ O resultado será:
 
 
 
-## 22.4 SQL Select
+### 22.4 SQL Select
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2918,7 +2856,7 @@ O resultado será:
 
 
 
-## 22.5 Sum, Max, Min, Avg, Count
+### 22.5 Sum, Max, Min, Avg, Count
 
 ```python
 # -*- coding: utf-8 -*-
@@ -2986,7 +2924,7 @@ O resultado será:
 
 
 
-## 22.6 SQL drop table e drop database
+### 22.6 SQL drop table e drop database
 
 ```python
 # -*- coding: utf-8 -*-
@@ -3035,7 +2973,7 @@ https://www.db-fiddle.com/
 
 
 ---
-# 23. Python com MongoDB
+## 23. Python com MongoDB
 
 
 ```python
@@ -3076,7 +3014,7 @@ O resultado será:
 
 
 ---
-# 24. Plot e gráficos
+## 24. Plot e gráficos
 
 ```python
 Em desenvolvimento
@@ -3129,7 +3067,7 @@ plt1.show()
 
 
 
-## 24.2. Gráfico pizza
+### 24.2. Gráfico pizza
 
 ```python
 import matplotlib.pyplot as plt1
@@ -3159,7 +3097,7 @@ plt1.show()
 
 
 
-### 24.2.1. Gráfico de pizza com matplotlib
+#### 24.2.1. Gráfico de pizza com matplotlib
 
 ```
 Em desenvolvimento
@@ -3189,7 +3127,7 @@ plt1.pie(filmes_por_categoria["total"], labels = filmes_por_categoria["original_
 
 
 
-## 24.3. Grafico com numpy
+### 24.3. Grafico com numpy
 
 np.mean, função mean do numpy é usada para calcular a média aritmética ou média dos elementos da matriz junto com o eixo especificado ou eixo múltiplo.
 
@@ -3219,7 +3157,7 @@ ax.barh(group_nomes, group_dados)
 
 
 
-## 24.4 Gráfico da distribuição normal
+### 24.4 Gráfico da distribuição normal
 
 ```python
 # -*- coding: utf-8 -*-
@@ -3246,7 +3184,7 @@ plt1.show()
 
 
 
-## 24.5 Gráfico de dispersão
+### 24.5 Gráfico de dispersão
 
 ```python
 # -*- coding: utf-8 -*-
@@ -3267,7 +3205,7 @@ plt.show()
 
 
 
-## 24.6 Gráfico boxplot com seaborn
+### 24.6 Gráfico boxplot com seaborn
 
 Definição: Seaborn...
 
@@ -3299,7 +3237,7 @@ sbn.boxplot(notas.nota)
 
 
 
-## 24.7 Gráfico de histograma
+### 24.7 Gráfico de histograma
 
 ```python
 # -*- coding: utf-8 -*-
@@ -3334,7 +3272,7 @@ print(notas.nota.plot(kind='hist'))
 
 
 
-## 24.8 Gráfico de histogramas com Seabor e KDE
+### 24.8 Gráfico de histogramas com Seabor e KDE
 
 ```
 KDE (kernel density estimates)
@@ -3382,7 +3320,7 @@ sbn.displot(medias_por_filme, kde=True)
 
 
 
-## 24.9. Gráfico com Matplotlib, KDE, Seaborn, Pyplot
+### 24.9. Gráfico com Matplotlib, KDE, Seaborn, Pyplot
 
 
 ```
@@ -3424,7 +3362,7 @@ plt1.title("titulo de gráfico aqui !")
 
 
 
-### 24.9.1. Gráfico de categorias com Seaborn e parâmetro kind
+#### 24.9.1. Gráfico de categorias com Seaborn e parâmetro kind
 
 ```
 Em desenvolvimento
@@ -3450,7 +3388,7 @@ sbn.catplot(x="original_language", kind="count", data=filmes)
 
 
 ---
-# 25. Exemplos diversos com estatísticas
+## 25. Exemplos diversos com estatísticas
 
 Exemplo:
 
@@ -3458,7 +3396,7 @@ Exemplo:
 Em desenvolvimento
 ```
 
-## 25.1 Media, mediana, moda e desvio padrão
+### 25.1 Media, mediana, moda e desvio padrão
 
 A média (mean) de um conjunto de dados é encontrada somando-se todos os números do conjunto de dados e então dividindo o resultado pelo número de valores do conjunto.<br>
 A mediana (median) é o valor do meio quando o conjunto de dados está ordenado do menor para o maior. <br>
@@ -3501,7 +3439,7 @@ desvio padrão:  18.019273428083416
 
 
 
-## 25.2 Percentil e porcentagem
+### 25.2 Percentil e porcentagem
 
 ```python
 # -*- coding: utf-8 -*-
@@ -3541,7 +3479,7 @@ arredondando:  16.13
 
 
 
-## 25.3. Regressão
+### 25.3. Regressão
 
 Definição1:
 
@@ -3556,7 +3494,7 @@ Definição2:
 
 
 
-### 25.3.1. Regressão linear
+#### 25.3.1. Regressão linear
 
 Definição: 
 
@@ -3630,7 +3568,7 @@ O resultado será:
 
 
 
-### 25.3.2. Regressão polinomial
+#### 25.3.2. Regressão polinomial
 
 Definição:
 
@@ -3662,7 +3600,7 @@ plt1.show()
 
 
 
-## 25.4 Contagem de valores, média e mediana com pandas dataframe
+### 25.4 Contagem de valores, média e mediana com pandas dataframe
 
 ```python
 # -*- coding: utf-8 -*-
@@ -3773,7 +3711,7 @@ Name: nota, Length: 100836, dtype: float64
 
 
 
-## 25.5. Média, desvio padrão, mínimo, máximo. pandas dataframe
+### 25.5. Média, desvio padrão, mínimo, máximo. pandas dataframe
 
 ```python
 # -*- coding: utf-8 -*-
@@ -3819,7 +3757,7 @@ Name: nota, dtype: float64
 
 
 ---
-# 26. GUI com Pyforms
+## 26. GUI com Pyforms
 
 Instalação do PyForms, via command prompt:<br>
 pip install pyforms
@@ -3851,7 +3789,7 @@ Em desenvolvimento
 ---
 # Analise de dados
 
-## 27.1 Numpy
+### 27.1 Numpy
 
 
 **Definição da Wikipedia:**
@@ -3897,7 +3835,7 @@ print(vetor_array1.ndim)
 print(vetor_array1.size)
 ```
 
-### 27.1.1 Geração de números randômicos
+#### 27.1.1 Geração de números randômicos
 
 ```python
 from numpy import random
@@ -3905,7 +3843,7 @@ x = random.randint(1000)
 print(x)
 ```
 
-### 27.1.2 Copy e View
+#### 27.1.2 Copy e View
 
 ```python
 import numpy as np
