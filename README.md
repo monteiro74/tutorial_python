@@ -211,6 +211,7 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 ---
 # A - Conceitos e exemplos gerais da linguagem
+
 ## 1 Comando print
 
 Impressão na tela, exemplo
@@ -222,7 +223,7 @@ print("teste")
 [Voltar ao sumário](#sumário)<br>
 
 
----
+
 ## 2 Comentário
 
 Usando "#"
@@ -246,7 +247,7 @@ print("Olá mundo!")
 [Voltar ao sumário](#sumário)<br>
 
 
----
+
 ## 3 Operações matemáticas
 
 ```python
@@ -317,7 +318,7 @@ print(10%3)
 [Voltar ao sumário](#sumário)<br>
 
 
----
+
 ## 4 Tipos de dados e variáveis
 
 Exemplo de uma variável com caracteres (strings)
@@ -642,7 +643,7 @@ Exemplo de variavel: global
 
 
 
----
+
 ## 5 Operadores
 
 Recordando que = é um operador de atribuição.
@@ -736,7 +737,7 @@ True
 
 
 
----
+
 ## 6 Tratamento de exceções
 
 ```python
@@ -775,7 +776,7 @@ ocorreu um erro!
 
 
 
----
+
 ## 7 Estruturas condicionais (controle de fluxo)
 
 Também chamados de comandos estruturais.
@@ -1000,10 +1001,6 @@ Digitado: 2
 [Voltar ao sumário](#sumário)<br>
 
 
-
-
-
----
 ## 8 Estruturas de repetição
 
 Também são chamados de laços de repetição ou iteradores. Iterar é repetir. Desta forma um bloco (ou várias linhas de código) serão repetidas até que uma condição seja satisfeita.<br>
@@ -1135,7 +1132,7 @@ O resultado será:
 
 
 
----
+
 ## 9 Funções
 
 Funções são blocos de código. Em python uma função vem precedida da palavra def, seguido do nome e os parâmetros da função. Uma função que já foi utilizada com frequencia até o momento foi print(). O bloco de comandos vai depois de uma tabulação.
@@ -1250,7 +1247,7 @@ Chamada a função funcao1
 
 
 
----
+
 ## 10 Arquivos
 
 O python pode manipular arquivos. Para abrir um arquivo é utilizada a função open. Os modos de trabalho com arquivos são: <br>
@@ -1400,7 +1397,7 @@ arquivo2.close()
 
 
 
----
+
 ## 11 Listas
 
 São um conjunto de dados para armazenar multiplos itens em uma única variável.
@@ -1992,7 +1989,7 @@ O resultado será:
 
 
 
----
+
 ## 12 Tuplas
 
 Lista são dinâmicas e tuplas estáticas!
@@ -2019,7 +2016,7 @@ comprimento:  4
 
 
 
----
+
 ## 13 Sets
 
 Com os conjuntos é possível armazenar multiplos valores em uma única variável. Os conjuntos não podem ser ordenados.
@@ -2041,7 +2038,7 @@ print(set1)
 
 
 
----
+
 ## 14 Dicionários
 
 O dicionário é um conjunto de elementos do tipo chave e valor. O dicionário não obedece uma ordem.
@@ -2161,7 +2158,7 @@ D
 
 
 
----
+
 ## 15 Comparação List, Tuple, Set, Dictionary
 
 | List | Tuple | Dictionary | Set
@@ -2178,7 +2175,7 @@ Fonte: https://www.devopsschool.com/blog/python-tutorials-difference-between-lis
 
 
 
----
+
 ## 16 Números aleatórios
 
 
@@ -2231,7 +2228,7 @@ O resultado poderá ser:
 
 
 
----
+
 ## 17 Arrays
 
 Python não tem suporte a arrays (matrizes), veja listas.
@@ -2240,7 +2237,7 @@ Python não tem suporte a arrays (matrizes), veja listas.
 
 
 
----
+
 ## 18 Módulos
 
 Os módulos são outros programas feitos em python que podem ser chamados, é uma forma de se estruturar funções em bibliotecas de códigos separados em outros arquivos.
@@ -2280,7 +2277,7 @@ a variavel recebeu o valor:  abcde
 
 
 
----
+
 ## 19 Input
 
 
@@ -2303,7 +2300,7 @@ Foi digitado: teste
 [Voltar ao sumário](#sumário)<br>
 
 
----
+
 ## 20 Standard Library
 
 A documentação oficial esta em: https://docs.python.org/3/library/
