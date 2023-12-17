@@ -4288,9 +4288,6 @@ Lista de ferramentas: https://github.com/monteiro74/lista_de_ferramentas#5-IDEs
 ```
 Este material esta recebendo atualizações frequentes. 
 As informações aqui contidas podem ser alteradas sem aviso prévio.
-Primeira postagem em: jun/2023. 
-Última atualização em: 28/jun/2023.
-
 ```
 
 ## Licença
@@ -4301,12 +4298,11 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ## Observação
 ```
-As informações aqui contidas podem ser alteradas sem aviso prévio.
-Primeira postagem (na antiga versão 1) em: Junho/2023.
+Primeira postagem em: Junho/2023.
 ```
 
 
-## Estatísticas:
+## Estatísticas
 
 
 
