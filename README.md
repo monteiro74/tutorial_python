@@ -4273,14 +4273,6 @@ https://www.devopsschool.com/blog/python-tutorials-difference-between-list-array
 
 
 
----
-# Comentários finais 
-
-```
-As informações aqui contidas podem ser alteradas sem aviso prévio.
-Primeira postagem (na antiga versão 1) em: Junho/2023. 
-Última atualização em: 12/agosto/2023.
-```
 
 
 Lista de ferramentas: https://github.com/monteiro74/lista_de_ferramentas#5-IDEs
@@ -4289,6 +4281,38 @@ Lista de ferramentas: https://github.com/monteiro74/lista_de_ferramentas#5-IDEs
 
 ---
 # Avisos, licença, observações, estatísticas
+
+
+
+---
+# Avisos, licença, observações, estatísticas
+
+```
+Aviso: Este material esta recebendo atualizações frequentes. 
+As informações aqui contidas podem ser alteradas sem aviso prévio.
+Primeira postagem em: jun/2023. 
+Última atualização em: 28/jun/2023.
+
+```
+
+```
+Licença: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) 
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+```
+
+
+```
+Observações
+As informações aqui contidas podem ser alteradas sem aviso prévio.
+Primeira postagem (na antiga versão 1) em: Junho/2023.
+```
+
+
+Estatísticas:
+
+
+
+
 
 Histórico de atualizações nos repositórios do Prof. Monteiro:<br>
 [![teste](https://github-readme-activity-graph.vercel.app/graph?username=monteiro74&theme=github-compact)](https://github.com/monteiro74/tutorial_python)
