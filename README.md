@@ -4283,28 +4283,30 @@ Lista de ferramentas: https://github.com/monteiro74/lista_de_ferramentas#5-IDEs
 ---
 # Avisos, licença, observações, estatísticas
 
+
+## Aviso
 ```
-Aviso: Este material esta recebendo atualizações frequentes. 
+Este material esta recebendo atualizações frequentes. 
 As informações aqui contidas podem ser alteradas sem aviso prévio.
 Primeira postagem em: jun/2023. 
 Última atualização em: 28/jun/2023.
 
 ```
 
+## Licença
 ```
-Licença: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) 
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) 
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 ```
 
-
+## Observação
 ```
-Observações
 As informações aqui contidas podem ser alteradas sem aviso prévio.
 Primeira postagem (na antiga versão 1) em: Junho/2023.
 ```
 
 
-Estatísticas:
+## Estatísticas:
 
 
 
