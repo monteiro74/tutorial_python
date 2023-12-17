@@ -4279,10 +4279,6 @@ Lista de ferramentas: https://github.com/monteiro74/lista_de_ferramentas#5-IDEs
 
 
 
----
-# Avisos, licença, observações, estatísticas
-
-
 
 ---
 # Avisos, licença, observações, estatísticas
