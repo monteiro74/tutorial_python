@@ -20,126 +20,142 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 # Sumário:
 
-# A - Conceitos e exemplos gerais da linguagem:<br>
-[1. Comando print](#1-comando-print) <br>
-[2. Comentário](#2-comentário) <br>
-[3. Operações matemáticas](#3-operações-matemáticas) <br>
-[3.1. Python com números](#31-python-com-números)<br>
-[3.2. Exponenciação](#32-exponenciação)<br>
-[3.3. Módulo](#33-módulo)<br>
-[4. Tipos de dados e variáveis](#4-tipos-de-dados-e-variáveis)<br>
-[4.1. Operações com strings](#41-operações-com-strings)<br>
-[4.1.1. Concatenando strings](#411-concatenando-strings) <br>
-[4.1.2. Tamanho de uma string](#412-tamanho-de-uma-string) <br>
-[4.1.3. Percorrer uma string](#413-percorrer-uma-string) <br>
-[4.1.4. Selecionando partes da string](#414-selecionando-partes-da-string) <br>
-[4.1.5. String maiúsculo, capitalize, minúsculo](#415-string-em-minúsculo-capitalize-e-maiúsculo) <br>
-[4.1.6. Função strip e split](#416-função-strip-split)<br>
-[4.1.7. Buscas e substituição por strings](#417-busca-e-substituição-por-substring)<br>
-[4.1.8. Formas de impressao de strings](#418-formas-de-impressao-de-string)<br>
-[4.2. Variáveis locais e globais](#42-local-e-global)<br>
-[5. Operadores](#5-operadores) <br>
-[5.1. Operadores matemáticos](#51-operadores-matemáticos)<br>
-[5.2. Operadores relacionais](#52-operadores-relacionais)<br>
-[5.3. Operadores lógicos](#53-operadores-lógicos)<br>
-[6. Tratamento de exceções](#6-tratamento-de-exceções)<br> 
-[7. Estruturas condicionais](#7-estruturas-condicionais-controle-de-fluxo) <br>
-[7.1. Break](#71-break)<br>
-[7.2. Continue](#72-continue)<br>
-[7.3. Pass](#73-pass)<br>
-[7.4. Match case](#74-match-e-case)<br>
-[8. Estruturas de repetição](#8-estruturas-de-repetição)<br>
-[8.1. Laço while](#81-laço-while) <br>
-[8.1.1. While true](#811-laço-while-true)<br>
-[8.2. Laço for](#82-laço-for)<br>
-[8.3. Laço for e range](#83-laço-for-e-range)<br> 
-[9. Funções](#9-funções)<br>
-[9.1. Definição de função](#91-documentação-de-função)<br>
-[10. Arquivos](#10-arquivos)<br>
-[10.1. Funções read, readline  readlines](#101-funções-read-readline-e-readlines)<br>
-[10.2. Criar arquivos](#102-criar-arquivos)<br>
-[11. Listas](#11-listas)<br>
-[11.1. Acrescentando itens](#111-acessando-elementos-individuais-da-lista)<br> 
-[11.2. Percorrer itens](#112-percorrer-elementos-de-uma-listas)<br> 
-[11.3. Tamanho de listas](#113-tamanho-de-listas)<br> 
-[11.4. Adicionar itens](#114-adicionando-itens-na-lista)<br> 
-[11.5. Procurar um ítem](#115-procurar-um-elemento-na-lista)<br> 
-[11.6. Substrair ítem](#116-subtraindo-elementos-de-uma-lista)<br> 
-[11.7. Ordenando itens](#117-ordenando-itens-da-lista-sort)<br> 
-[11.7.1. Sort crescente/decrescente](#1171-sort-decrescentedecrescente)<br>
-[11.7.2. Sort invert](#1172-sort-inverter-itens)<br>
-[11.8. Ordenando itens da lista](#118-ordenando-itens-da-lista-sorted)<br>
-[11.9. Pop](#119-pop)<br>
-[11.10. Funções para tratamento de listas](#1110-funções-para-tratamento-de-listas)<br>
-[12. Tuplas](#12-tuplas)<br>
-[13. Sets](#13-sets)<br>
-[14. Dicionários](#14-dicionários)<br>
-[14.1. Função items](#141-função-items)<br>
-[14.2. Função values e keys](#142-função-values-e-keys)<br> 
-[15. Comparação list, tuple, set e dictionary](#15-comparação-list-tuple-set-dictionary)<br>
-[16. Números aleatórios](#16-números-aleatórios)<br>
-[17. Arrays](#17-arrays)<br>
-[18. Módulos](#18-módulos)<br>
-[19. Inputs](#19-input)<br>
-[20. Standard library](#20-standard-library)<br>
-
-# B - Programação Orientada a Objetos<br>
-[21. Python orientado a objetos](#21-python-orientado-a-objetos)<br>
-[21.1. Instanciando objetos e atribuindo valores](#211-instanciando-objetos-atribundo-valores)<br>
-[21.2. Sub classes e herança](#212-sub-classes-e-herança)<br>
-[21.3. Encapsulação](#213-encapsulação)<br>
-[21.4. Polimorfismo](#214-polimorfismo)<br>
-
-# C - Banco MySQL(MariaDB)<br>
-[22 Python com MySQL](#22-python-com-mysql)<br>
-[22.1. SQL create database](#221-sql-create-database)<br>
-[22.2. SQL create table](#222-sql-create-table)<br>
-[22.3. SQL insert delete update](#223-sql-insert-delete-update)<br>
-[22.4. Select](#224-sql-select)<br>
-[22.5. Sum, Max, Min, Avg, Count](#225-sum-max-min-avg-count)<br>
-[22.6. SQL drop table e drop databasae](#226-sql-drop-table-e-drop-database)<br>
-
-# D - Banco MongoDB<br>
-[23 Python com MongoDB](#23-python-com-mongodb)<br>
-
-# E - Plot<br>
-[24 Plot e gráfico](#24-plot-e-gráficos)<br>
-[24.1. Gráfico com matplotlib](#241-gráfico-com-matplotlib)<br>
-[24.2. Gráfico pizza](#242-gráfico-pizza)<br>
-[24.2.1. Gráfico de pizza com matplotlib](#2421-gráfico-de-pizza-com-matplotlib)<br>
-[24.3. Gráfico com numpy](#243-grafico-com-numpy)<br>
-[24.4. Gráfico da distribuição normal](#244-gráfico-da-distribuição-normal)<br>
-[24.5. Gráfico de dispersão](#245-gráfico-de-dispersão)<br>
-[24.6. Gráfico boxplot com seaborn](#246-gráfico-boxplot-com-seaborn)<br>
-[24.7 Gráfico de histograma](#247-gráfico-de-histograma)<br>
-[24.8 Gráfico de histogramas com Seabor e KDE](#248-gráfico-de-histogramas-com-seabor-e-kde)<br>
-[24.9. Gráfico com Matplotlib, KDE, Seaborn, pyplot](#249-gráfico-com-matplotlib-kde-seaborn-pyplot)<br>
-[24.9.1. Gráfico de categorias com Seaborn e parâmetro kind](#2491-gráfico-de-categorias-com-seaborn-e-parâmetro-kind)<br>
 
 
+- [Tutorial sobre python](#tutorial-sobre-python)
+- [Sumário:](#sumário)
+- [A - Conceitos e exemplos gerais da linguagem](#a---conceitos-e-exemplos-gerais-da-linguagem)
+- [1. Comando print](#1-comando-print)
+- [2. Comentário](#2-comentário)
+  - [2.1. Codigo com acentos](#21-codigo-com-acentos)
+- [3. Operações matemáticas](#3-operações-matemáticas)
+  - [3.1. Python com números](#31-python-com-números)
+  - [3.2. Exponenciação](#32-exponenciação)
+  - [3.3. Módulo](#33-módulo)
+- [4. Tipos de dados e variáveis](#4-tipos-de-dados-e-variáveis)
+  - [4.1. Operações com strings](#41-operações-com-strings)
+    - [4.1.1. Concatenando strings](#411-concatenando-strings)
+    - [4.1.2. Tamanho de uma string](#412-tamanho-de-uma-string)
+    - [4.1.3. Percorrer uma string](#413-percorrer-uma-string)
+    - [4.1.4. Selecionando partes da string](#414-selecionando-partes-da-string)
+    - [4.1.5. String em minúsculo, capitalize e maiúsculo](#415-string-em-minúsculo-capitalize-e-maiúsculo)
+    - [4.1.6. Função strip, split](#416-função-strip-split)
+    - [4.1.7. Busca e substituição por substring](#417-busca-e-substituição-por-substring)
+    - [4.1.8. Formas de impressao de string](#418-formas-de-impressao-de-string)
+  - [4.2. Local e Global](#42-local-e-global)
+- [5. Operadores](#5-operadores)
+  - [5.1. Operadores matemáticos](#51-operadores-matemáticos)
+  - [5.2. Operadores relacionais](#52-operadores-relacionais)
+  - [5.3. Operadores lógicos](#53-operadores-lógicos)
+- [6. Tratamento de exceções](#6-tratamento-de-exceções)
+- [7. Estruturas condicionais (controle de fluxo)](#7-estruturas-condicionais-controle-de-fluxo)
+  - [7.1. Break](#71-break)
+  - [7.2. Continue](#72-continue)
+  - [7.3. Pass](#73-pass)
+  - [7.4. Match e case](#74-match-e-case)
+- [8. Estruturas de repetição](#8-estruturas-de-repetição)
+  - [8.1. Laço while](#81-laço-while)
+    - [8.1.1. Laço while true](#811-laço-while-true)
+  - [8.2. Laço for](#82-laço-for)
+  - [8.3. Laço for e range](#83-laço-for-e-range)
+- [9. Funções](#9-funções)
+  - [9.1. Função recursiva](#91-função-recursiva)
+  - [9.2. Documentação de função](#92-documentação-de-função)
+- [10. Arquivos](#10-arquivos)
+  - [10.1. Funções read, readline e readlines](#101-funções-read-readline-e-readlines)
+    - [10.1.1. Função readlines](#1011-função-readlines)
+    - [10.1.2. Função read](#1012-função-read)
+  - [10.2. Criar arquivos](#102-criar-arquivos)
+- [11. Listas](#11-listas)
+  - [11.1. Acessando elementos individuais da lista](#111-acessando-elementos-individuais-da-lista)
+  - [11.2. Percorrer elementos de uma listas](#112-percorrer-elementos-de-uma-listas)
+  - [11.3. Tamanho de listas](#113-tamanho-de-listas)
+  - [11.4. Adicionando itens na lista](#114-adicionando-itens-na-lista)
+  - [11.5. Procurar um elemento na lista](#115-procurar-um-elemento-na-lista)
+  - [11.6. Subtraindo elementos de uma lista](#116-subtraindo-elementos-de-uma-lista)
+  - [11.7. Ordenando itens da lista, sort](#117-ordenando-itens-da-lista-sort)
+    - [11.7.1. Sort decrescente/decrescente](#1171-sort-decrescentedecrescente)
+    - [11.7.2. Sort inverter itens](#1172-sort-inverter-itens)
+  - [11.8. Ordenando itens da lista, sorted](#118-ordenando-itens-da-lista-sorted)
+  - [11.9. Pop](#119-pop)
+  - [11.10. Funções para tratamento de listas](#1110-funções-para-tratamento-de-listas)
+    - [11.10.1. List comprehensions](#11101-list-comprehensions)
+    - [11.10.2. Função Enumerate](#11102-função-enumerate)
+    - [11.10.3. Função Map](#11103-função-map)
+    - [11.10.4. Função Reduce](#11104-função-reduce)
+    - [11.10.5. Função Zip](#11105-função-zip)
+- [12. Tuplas](#12-tuplas)
+- [13. Sets](#13-sets)
+- [14. Dicionários](#14-dicionários)
+  - [14.1. Função items](#141-função-items)
+  - [14.2. Função values e keys](#142-função-values-e-keys)
+- [15. Comparação List, Tuple, Set, Dictionary](#15-comparação-list-tuple-set-dictionary)
+- [16. Números aleatórios](#16-números-aleatórios)
+- [17. Arrays](#17-arrays)
+- [18. Módulos](#18-módulos)
+- [19. Input](#19-input)
+- [20. Standard Library](#20-standard-library)
+- [B - Programação Orientada a Objetos](#b---programação-orientada-a-objetos)
+- [21. Criando classes](#21-criando-classes)
+  - [21.1. Instanciando objetos, atribuindo valores](#211-instanciando-objetos-atribuindo-valores)
+  - [21.2. Sub classes e herança](#212-sub-classes-e-herança)
+  - [21.3. Encapsulação](#213-encapsulação)
+  - [21.4. Polimorfismo](#214-polimorfismo)
+- [C - Banco MySQL (MariaDB)](#c---banco-mysql-mariadb)
+- [22. Python com MySQL](#22-python-com-mysql)
+  - [22.1. SQL create database](#221-sql-create-database)
+  - [22.2. SQL create table](#222-sql-create-table)
+  - [22.3. SQL Insert, Delete, Update](#223-sql-insert-delete-update)
+  - [22.4. SQL Select](#224-sql-select)
+  - [22.5. Sum, Max, Min, Avg, Count](#225-sum-max-min-avg-count)
+  - [22.6. SQL drop table e drop database](#226-sql-drop-table-e-drop-database)
+- [D - Banco MongoDB](#d---banco-mongodb)
+- [23. Python com MongoDB](#23-python-com-mongodb)
+- [E - Plotagem de gráficos](#e---plotagem-de-gráficos)
+- [24. Plot e gráficos](#24-plot-e-gráficos)
+  - [24.1. Gráfico com matplotlib](#241-gráfico-com-matplotlib)
+  - [24.2. Gráfico pizza](#242-gráfico-pizza)
+    - [24.2.1. Gráfico de pizza com matplotlib](#2421-gráfico-de-pizza-com-matplotlib)
+  - [24.3. Grafico com numpy](#243-grafico-com-numpy)
+  - [24.4. Gráfico da distribuição normal](#244-gráfico-da-distribuição-normal)
+  - [24.5. Gráfico de dispersão](#245-gráfico-de-dispersão)
+  - [24.6. Gráfico boxplot com seaborn](#246-gráfico-boxplot-com-seaborn)
+  - [24.7. Gráfico de histograma](#247-gráfico-de-histograma)
+  - [24.8. Gráfico de histogramas com Seabor e KDE](#248-gráfico-de-histogramas-com-seabor-e-kde)
+  - [24.9. Gráfico com Matplotlib, KDE, Seaborn, Pyplot](#249-gráfico-com-matplotlib-kde-seaborn-pyplot)
+    - [24.9.1. Gráfico de categorias com Seaborn e parâmetro kind](#2491-gráfico-de-categorias-com-seaborn-e-parâmetro-kind)
+- [F - Estatísticas](#f---estatísticas)
+- [25. Exemplos diversos com estatísticas](#25-exemplos-diversos-com-estatísticas)
+  - [25.1 Media, mediana, moda e desvio padrão](#251-media-mediana-moda-e-desvio-padrão)
+  - [25.2. Percentil e porcentagem](#252-percentil-e-porcentagem)
+  - [25.3. Regressão](#253-regressão)
+    - [25.3.1. Regressão linear](#2531-regressão-linear)
+    - [25.3.2. Regressão polinomial](#2532-regressão-polinomial)
+    - [25.4. Contagem de valores, média e mediana com pandas dataframe](#254-contagem-de-valores-média-e-mediana-com-pandas-dataframe)
+    - [25.5. Média, desvio padrão, mínimo, máximo. pandas dataframe](#255-média-desvio-padrão-mínimo-máximo-pandas-dataframe)
+- [G - GUI](#g---gui)
+- [26. GUI com Pyforms](#26-gui-com-pyforms)
+- [H - Analise de dados](#h---analise-de-dados)
+  - [27.1 Numpy](#271-numpy)
+    - [27.1.1. Geração de números randômicos](#2711-geração-de-números-randômicos)
+    - [27.1.2. Copy e View](#2712-copy-e-view)
+    - [27.1.3. Join, Split e Sort](#2713-join-split-e-sort)
+  - [27.2. Pandas](#272-pandas)
+    - [27.2.1. Importar arquivo csv e estatísticas básicas](#2721-importar-arquivo-csv-e-estatísticas-básicas)
+- [3D](#3d)
+  - [28.1 Matplotlib](#281-matplotlib)
+- [Outros materiais](#outros-materiais)
+- [Lista de IDEs](#lista-de-ides)
+- [Lista de editores de códigos](#lista-de-editores-de-códigos)
+- [Referências](#referências)
+- [Avisos, licença, observações, estatísticas](#avisos-licença-observações-estatísticas)
+  - [Aviso](#aviso)
+  - [Licença](#licença)
+  - [Observação](#observação)
+  - [Estatísticas](#estatísticas)
 
-# F - Estatísticas<br>
-[25. Exemplos diversos com estatísticas](#25-exemplos-diversos-com-estatísticas)<br>
-[25.1 Media, mediana, moda e desvio padrão](#251-media-mediana-moda-e-desvio-padrão)<br>
-[25.2 Percentil e porcentagem](#252-percentil-e-porcentagem)<br>
-[25.3. Regressão](#253-regressão)<br>
-[25.3.1. Regressão linear](#2531-regressão-linear)<br>
-[25.3.2. Regressão polinomial](#2532-regressão-polinomial)<br>
-[25.4 Contagem de valores, média e mediana com pandas dataframe](#254-contagem-de-valores-média-e-mediana-com-pandas-dataframe)<br>
-[25.5. Média, desvio padrão, mínimo, máximo. pandas dataframe](#255-média-desvio-padrão-mínimo-máximo-pandas-dataframe)<br>
 
 
-# G - GUI<br>
-[26 GUI com pyforms](#26-gui-com-pyforms)<br>
-
-
-
-# H - Analise de dados
-[27.1 Numpy](#271-numpy)<br>
-[27.1.1 Geração de números randômicos](#2711-geração-de-números-randômicos)<br>
-[27.1.2 Copy e View](#2712-copy-e-view)<br>
-[27.1.3 Join, Split e Sort](#2713-join-split-e-sort)<br>
-[27.2 Pandas](#272-pandas)<br>
 
 
 <!--
@@ -198,15 +214,6 @@ https://github.com/monteiro74/lista_de_ferramentas
 [Voltar ao sumário](#sumário)<br>
 
 -->
-
-# Outros materiais:<br>
-[Lista de IDEs](#lista-de-ides)<br>
-[Lista de editores de códigos](#lista-de-editores-de-códigos)<br>
-[Referências](#referências)<br>
-[Comentários finais](#comentários-finais)<br>
-
-
-
 
 
 ---
@@ -3952,7 +3959,7 @@ Name: 2023, dtype: object
 1   Caceres   65   60   67   45
 ```
 
-### 27.2.1. Importar arquivo csv e operações
+### 27.2.1. Importar arquivo csv e estatísticas básicas
 
 Exemplo de importação de arquivo CSV e estatísticas básicas:
 
