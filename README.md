@@ -20,6 +20,7 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 # Sumário:
 
+
 - [Tutorial sobre python](#tutorial-sobre-python)
 - [Sumário:](#sumário)
 - [A - Conceitos e exemplos gerais da linguagem](#a---conceitos-e-exemplos-gerais-da-linguagem)
@@ -143,15 +144,16 @@ https://github.com/monteiro74/lista_de_ferramentas
 - [3D](#3d)
   - [28.1 Matplotlib](#281-matplotlib)
   - [28.2. Axes3D](#282-axes3d)
-  - [28.3. Seaborn](#283-seaborn)
-  - [28.4. Matplotlib](#284-matplotlib)
-  - [28.5. Scikitlearn](#285-scikitlearn)
-  - [28.6. TensorFlow](#286-tensorflow)
-  - [28.7. Keras](#287-keras)
-  - [28.8. Pytorch](#288-pytorch)
-  - [28.9. Theano](#289-theano)
-  - [28.13. Pillow](#2813-pillow)
-  - [28.14. OpenCV](#2814-opencv)
+- [29. Outras bibliotecas/ferramentas](#29-outras-bibliotecasferramentas)
+  - [29.1. Seaborn](#291-seaborn)
+  - [29.2. Matplotlib](#292-matplotlib)
+  - [29.3. Scikitlearn](#293-scikitlearn)
+  - [29.4. TensorFlow](#294-tensorflow)
+  - [29.5. Keras](#295-keras)
+  - [29.6. Pytorch](#296-pytorch)
+  - [29.7. Theano](#297-theano)
+  - [29.8. Pillow](#298-pillow)
+  - [29.9. OpenCV](#299-opencv)
 - [Outros materiais](#outros-materiais)
 - [Lista de IDEs](#lista-de-ides)
 - [Lista de editores de códigos](#lista-de-editores-de-códigos)
@@ -4120,9 +4122,17 @@ Fonte do exemplo acima: https://www.geeksforgeeks.org/how-to-draw-3d-cube-using-
 Em desenvolvimento
 ```
 
+# 29. Outras bibliotecas/ferramentas
 
+## 29.1. Seaborn
 
-## 28.3. Seaborn
+```python
+Em desenvolvimento
+```
+
+[Voltar ao sumário](#sumário)<br>
+
+## 29.2. Matplotlib
 
 ```python
 Em desenvolvimento
@@ -4131,17 +4141,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 28.4. Matplotlib
-
-```python
-Em desenvolvimento
-```
-
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 28.5. Scikitlearn
+## 29.3. Scikitlearn
 
 ```python
 Em desenvolvimento
@@ -4150,7 +4150,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 28.6. TensorFlow
+## 29.4. TensorFlow
 
 ```python
 Em desenvolvimento
@@ -4159,7 +4159,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 28.7. Keras
+## 29.5. Keras
 
 ```python
 Em desenvolvimento
@@ -4168,7 +4168,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 28.8. Pytorch
+## 29.6. Pytorch
 
 ```python
 Em desenvolvimento
@@ -4177,17 +4177,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 28.9. Theano
-
-```python
-Em desenvolvimento
-```
-
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 28.13. Pillow
+## 29.7. Theano
 
 ```python
 Em desenvolvimento
@@ -4196,12 +4186,20 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 28.14. OpenCV
+## 29.8. Pillow
 
 ```python
 Em desenvolvimento
 ```
 
+
+[Voltar ao sumário](#sumário)<br>
+
+## 29.9. OpenCV
+
+```python
+Em desenvolvimento
+```
 
 
 [Voltar ao sumário](#sumário)<br>
