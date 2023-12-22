@@ -143,6 +143,7 @@ https://github.com/monteiro74/lista_de_ferramentas
   - [27.2. Pandas](#272-pandas)
     - [27.2.1. Importar arquivo csv e estatísticas básicas](#2721-importar-arquivo-csv-e-estatísticas-básicas)
 - [3D](#3d)
+- [28. 3D](#28-3d)
   - [28.1 Matplotlib](#281-matplotlib)
   - [28.1.2. Outro exemplo com Matplotlib](#2812-outro-exemplo-com-matplotlib)
   - [28.2. Axes3D](#282-axes3d)
@@ -3996,6 +3997,8 @@ Em desenvolvimento
 
 
 # 3D
+
+# 28. 3D
 
 ## 28.1 Matplotlib
 
