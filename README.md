@@ -143,6 +143,15 @@ https://github.com/monteiro74/lista_de_ferramentas
 - [3D](#3d)
   - [28.1 Matplotlib](#281-matplotlib)
   - [28.2. Axes3D](#282-axes3d)
+  - [28.3. Seaborn](#283-seaborn)
+  - [28.4. Matplotlib](#284-matplotlib)
+  - [28.5. Scikitlearn](#285-scikitlearn)
+  - [28.6. TensorFlow](#286-tensorflow)
+  - [28.7. Keras](#287-keras)
+  - [28.8. Pytorch](#288-pytorch)
+  - [28.9. Theano](#289-theano)
+  - [28.13. Pillow](#2813-pillow)
+  - [28.14. OpenCV](#2814-opencv)
 - [Outros materiais](#outros-materiais)
 - [Lista de IDEs](#lista-de-ides)
 - [Lista de editores de códigos](#lista-de-editores-de-códigos)
@@ -4025,6 +4034,12 @@ Desvio padrão de Pulse: 6.711341539748807
 Variação de Pulse: 45.04210526315789
 ```
 
+
+
+```python
+Em desenvolvimento
+```
+
 # 3D
 
 ## 28.1 Matplotlib
@@ -4101,10 +4116,13 @@ ax.voxels(data, facecolors=colors, edgecolors='grey')
 Fonte do exemplo acima: https://www.geeksforgeeks.org/how-to-draw-3d-cube-using-matplotlib-in-python/ <br>
 <br>
 
+```python
+Em desenvolvimento
+```
 
-<!--
 
-## 27.3. Seaborn
+
+## 28.3. Seaborn
 
 ```python
 Em desenvolvimento
@@ -4113,7 +4131,17 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 27.4. Matplotlib
+## 28.4. Matplotlib
+
+```python
+Em desenvolvimento
+```
+
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 28.5. Scikitlearn
 
 ```python
 Em desenvolvimento
@@ -4122,7 +4150,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 27.5. Scikitlearn
+## 28.6. TensorFlow
 
 ```python
 Em desenvolvimento
@@ -4131,7 +4159,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 27.6. TensorFlow
+## 28.7. Keras
 
 ```python
 Em desenvolvimento
@@ -4140,7 +4168,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 27.7. Keras
+## 28.8. Pytorch
 
 ```python
 Em desenvolvimento
@@ -4149,7 +4177,17 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 27.8. Pytorch
+## 28.9. Theano
+
+```python
+Em desenvolvimento
+```
+
+
+
+[Voltar ao sumário](#sumário)<br>
+
+## 28.13. Pillow
 
 ```python
 Em desenvolvimento
@@ -4158,234 +4196,13 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 27.9. Theano
+## 28.14. OpenCV
 
 ```python
 Em desenvolvimento
 ```
 
 
-[Voltar ao sumário](#sumário)<br>
-
-## 27.10. MxNet
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 27.11. Café
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-
-## 27.12. CNT
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 27.13. Pillow
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 27.14. OpenCV
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 27.15. ApacheSpark
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 27.16 Hadoop
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-
----
-# Desenvolvimento web
-
-## 28.1 Django
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 28.2. Flask
-
-
-```python
-Em desenvolvimento
-```
-
-[Voltar ao sumário](#sumário)<br>
-
-## 28.3. CherryPy
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 28.4. Pyramid
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 28.5. TurboGears
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 28.6. Falcon
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 28.7. Tornado
-
-
-```python
-Em desenvolvimento
-```
-
-[Voltar ao sumário](#sumário)<br>
-
-
----
-# Desenvolvimento de app
-
-## 29.1. Kivy
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 29.2. BeeWare
-
-
-```python
-Em desenvolvimento
-```
-
-[Voltar ao sumário](#sumário)<br>
-
-## 29.3. Python-for-android
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
----
-# Web scraping
-
-## 30.1. urllib
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 30.2 requests
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-
----
-# Interações com o site
-
-## 31.1. Selenium
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-
-## 31.2. Webbot
-
-```python
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 31.3. Webcrawler
-
-```python
-Em desenvolvimento
-```
-
-## 31.4. Scrapy
-
-```python
-Em desenvolvimento
-```
-
--->
 
 [Voltar ao sumário](#sumário)<br>
 
