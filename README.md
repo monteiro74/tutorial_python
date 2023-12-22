@@ -3887,6 +3887,70 @@ O resultado será:
 5    Fabio     48    M
 ```
 
+Outro exemplo básico com pandas
+
+```python
+import pandas as pd
+
+df123 = pd.DataFrame(
+    {
+        "Municipio": ["Sinop", "Caceres", "Sorriso"],
+        "2023": ["45", "65", "78"],
+        "2022": ["67", "60", "78"],
+        "2021": ["73", "67", "87"],
+        "2020": ["80", "45", "89"],
+    }
+)
+
+print('--- imprime o dataframe ---')
+print(df123)
+print('--- imprime o head do dataframe ---')
+print(df123.head())
+print('--- imprime o tail do dataframe ---')
+print(df123.tail())
+print('--- imprime transpose do dataframe ---')
+print(df123.T)
+print('--- imprime uma coluna ---')
+print(df123["2023"])
+print('--- imprime duas linhas ---')
+print(df123[0:2])
+```
+
+O resultado do código acima será:
+
+```
+--- imprime o dataframe ---
+  Municipio 2023 2022 2021 2020
+0     Sinop   45   67   73   80
+1   Caceres   65   60   67   45
+2   Sorriso   78   78   87   89
+--- imprime o head do dataframe ---
+  Municipio 2023 2022 2021 2020
+0     Sinop   45   67   73   80
+1   Caceres   65   60   67   45
+2   Sorriso   78   78   87   89
+--- imprime o tail do dataframe ---
+  Municipio 2023 2022 2021 2020
+0     Sinop   45   67   73   80
+1   Caceres   65   60   67   45
+2   Sorriso   78   78   87   89
+--- imprime transpose do dataframe ---
+               0        1        2
+Municipio  Sinop  Caceres  Sorriso
+2023          45       65       78
+2022          67       60       78
+2021          73       67       87
+2020          80       45       89
+--- imprime uma coluna ---
+0    45
+1    65
+2    78
+Name: 2023, dtype: object
+--- imprime duas linhas ---
+  Municipio 2023 2022 2021 2020
+0     Sinop   45   67   73   80
+1   Caceres   65   60   67   45
+```
 
 
 # 3D
