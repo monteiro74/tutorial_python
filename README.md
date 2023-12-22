@@ -144,6 +144,7 @@ https://github.com/monteiro74/lista_de_ferramentas
     - [27.2.1. Importar arquivo csv e estatísticas básicas](#2721-importar-arquivo-csv-e-estatísticas-básicas)
 - [3D](#3d)
   - [28.1 Matplotlib](#281-matplotlib)
+  - [28.1.2. Outro exemplo com Matplotlib](#2812-outro-exemplo-com-matplotlib)
   - [28.2. Axes3D](#282-axes3d)
 - [29. Outras bibliotecas/ferramentas](#29-outras-bibliotecasferramentas)
   - [29.1. Scikitlearn](#291-scikitlearn)
@@ -4030,6 +4031,26 @@ plt.show()
 <bt>
 Fonte do exemplo acima: https://matplotlib.org/stable/gallery/mplot3d/projections.html<br>
 <br>
+
+[Voltar ao sumário](#sumário)<br>
+
+
+## 28.1.2. Outro exemplo com Matplotlib
+
+Outro exemplo com matplotlib: https://matplotlib.org/stable/gallery/mplot3d/box3d.html
+
+![https://matplotlib.org/stable/_images/sphx_glr_box3d_001.png](https://matplotlib.org/stable/_images/sphx_glr_box3d_001.png)
+
+
+Mais um exemplo: https://stackoverflow.com/questions/70911608/plot-3d-cube-and-draw-line-on-3d-in-python
+
+![https://i.stack.imgur.com/YKoJ2.png](https://i.stack.imgur.com/YKoJ2.png)
+
+
+
+[Voltar ao sumário](#sumário)<br>
+
+
 
 
 ## 28.2. Axes3D
