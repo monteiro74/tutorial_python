@@ -144,6 +144,7 @@ https://github.com/monteiro74/lista_de_ferramentas
     - [27.2.1. Importar arquivo csv e estatísticas básicas](#2721-importar-arquivo-csv-e-estatísticas-básicas)
 - [3D](#3d)
   - [28.1 Matplotlib](#281-matplotlib)
+  - [28.1. Axes3D](#281-axes3d)
 - [Outros materiais](#outros-materiais)
 - [Lista de IDEs](#lista-de-ides)
 - [Lista de editores de códigos](#lista-de-editores-de-códigos)
@@ -4064,6 +4065,44 @@ plt.show()
 Fonte do exemplo acima: https://matplotlib.org/stable/gallery/mplot3d/projections.html<br>
 <br>
 
+
+## 28.1. Axes3D
+
+```python
+# importa as bibliotecas
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D 
+import numpy as np
+
+# Cria os eixos
+axes = [5, 5, 5]
+
+# Cria os dados
+data = np.ones(axes)
+
+# Controle transparencia
+alpha = 0.9
+
+# Controle cores
+colors = np.empty(axes + [4])
+
+colors[0] = [1, 0, 0, alpha] # vermelho
+colors[1] = [0, 1, 0, alpha] # verde
+colors[2] = [0, 0, 1, alpha] # azul
+colors[3] = [1, 1, 0, alpha] # amarelo
+colors[4] = [1, 1, 1, alpha] # cinza
+
+# Plota a figura
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+# Voxels são usados para customizar tamanho, posição e cores
+ax.voxels(data, facecolors=colors, edgecolors='grey')
+```
+
+<bt>
+Fonte do exemplo acima: https://www.geeksforgeeks.org/how-to-draw-3d-cube-using-matplotlib-in-python/ <br>
+<br>
 
 
 <!--
