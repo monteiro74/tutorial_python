@@ -21,6 +21,7 @@ https://github.com/monteiro74/lista_de_ferramentas
 # Sumário:
 
 
+
 - [Tutorial sobre python](#tutorial-sobre-python)
 - [Sumário:](#sumário)
 - [A - Conceitos e exemplos gerais da linguagem](#a---conceitos-e-exemplos-gerais-da-linguagem)
@@ -165,62 +166,6 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 
 
-<!--
-
-[27.3. Seaborn](#273-seaborn)<br>
-[27.4. Matplotlib](#274-matplotlib)<br>
-[27.5. Scikitlearn]()<br>
-[27.6. TensorFlow]()<br>
-[27.7. Keras]()<br>
-[27.8. Pytorch]()<br>
-[27.9. Theano]()<br>
-[27.10. MxNet]()<br>
-[27.11. Café]()<br>
-[27.12. CNT]()<br>
-[27.13. Pillow]()<br>
-[27.14. OpenCV]()<br>
-[27.15. ApacheSpark]()<br>
-[27.16 Hadoop]()<br>
-
-[Voltar ao sumário](#sumário)<br>
-
-
-## Desenvolvimento web
-[28.1 Django]()<br>
-[28.2. Flask]()<br>
-[28.3. CherryPy]()<br>
-[28.4. Pyramid]()<br>
-[28.5. TurboGears]()<br>
-[28.6. Falcon]()<br>
-[28.7. Tornado]()<br>
-
-[Voltar ao sumário](#sumário)<br>
-
-
-## Desenvolvimento de app
-[29.1. Kivy]()<br>
-[29.2. BeeWare]()<br>
-[29.3. Python-for-android]()<br>
-
-[Voltar ao sumário](#sumário)<br>
-
-
-
-## Web scraping
-[30.1. urllib]()<br>
-[30.2 requests]()<br>
-
-[Voltar ao sumário](#sumário)<br>
-
-## Interações com o site
-[31.1. Selenium]()<br>
-[31.2. Webbot]()<br>
-[31.3. Webcrawler]()<br> 
-[31.4. Scrapy]()<br>
-
-[Voltar ao sumário](#sumário)<br>
-
--->
 
 
 ---
