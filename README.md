@@ -3952,6 +3952,73 @@ Name: 2023, dtype: object
 1   Caceres   65   60   67   45
 ```
 
+### 27.2.1. Importar arquivo csv e operações
+
+Exemplo de importação de arquivo CSV e estatísticas básicas:
+
+```python
+import pandas as pd
+
+df = pd.read_csv('D:\programacao\python\data2.csv')
+
+print('--- listagem das linhas do arquivo --------')
+print(df.to_string()) 
+
+
+media1 = df['Pulse'].mean()
+soma = df['Pulse'].sum()
+max1 = df['Pulse'].max()
+min1 = df['Pulse'].min()
+countagem1 = df['Pulse'].count()
+mediana1 = df['Pulse'].median() 
+desvioPadrao1 = df['Pulse'].std() 
+variancia1 = df['Pulse'].var()  
+
+print("--- Estatísticas simples -----------------")
+print('Media de Pulse: ' + str(media1))
+print('Soma de Pulse: ' + str(soma))
+print('Max de Pulse: ' + str(max1))
+print('Min de Pulse: ' + str(min1))
+print('Contagem de Pulse: ' + str(countagem1))
+print('mediana de Pulse: ' + str(mediana1))
+print('Desvio padrão de Pulse: ' + str(desvioPadrao1))
+print('Variação de Pulse: ' + str(variancia1))
+```
+
+O resultado será:
+```
+--- listagem das linhas do arquivo --------
+    Duration  Pulse  Maxpulse  Calories
+0         60    110       130     409.1
+1         60    117       145     479.0
+2         60    103       135     340.0
+3         45    109       175     282.4
+4         45    117       148     406.0
+5         60    102       127     300.0
+6         60    110       136     374.0
+7         45    104       134     253.3
+8         30    109       133     195.1
+9         60     98       124     269.0
+10        60    103       147     329.3
+11        60    100       120     250.7
+12        60    106       128     345.3
+13        60    104       132     379.3
+14        60     98       123     275.0
+15        60     98       120     215.2
+16        60    100       120     300.0
+17        45     90       112       NaN
+18        60    103       123     323.0
+19        45     97       125     243.0
+--- Estatísticas simples -----------------
+Media de Pulse: 103.9
+Soma de Pulse: 2078
+Max de Pulse: 117
+Min de Pulse: 90
+Contagem de Pulse: 20
+mediana de Pulse: 103.0
+Desvio padrão de Pulse: 6.711341539748807
+Variação de Pulse: 45.04210526315789
+```
 
 # 3D
 
