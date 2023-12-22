@@ -145,15 +145,13 @@ https://github.com/monteiro74/lista_de_ferramentas
   - [28.1 Matplotlib](#281-matplotlib)
   - [28.2. Axes3D](#282-axes3d)
 - [29. Outras bibliotecas/ferramentas](#29-outras-bibliotecasferramentas)
-  - [29.1. Seaborn](#291-seaborn)
-  - [29.2. Matplotlib](#292-matplotlib)
-  - [29.3. Scikitlearn](#293-scikitlearn)
-  - [29.4. TensorFlow](#294-tensorflow)
-  - [29.5. Keras](#295-keras)
-  - [29.6. Pytorch](#296-pytorch)
-  - [29.7. Theano](#297-theano)
-  - [29.8. Pillow](#298-pillow)
-  - [29.9. OpenCV](#299-opencv)
+  - [29.1. Scikitlearn](#291-scikitlearn)
+  - [29.2. TensorFlow](#292-tensorflow)
+  - [29.3. Keras](#293-keras)
+  - [29.4. Pytorch](#294-pytorch)
+  - [29.5. Theano](#295-theano)
+  - [29.6. Pillow](#296-pillow)
+  - [29.7. OpenCV](#297-opencv)
 - [Outros materiais](#outros-materiais)
 - [Lista de IDEs](#lista-de-ides)
 - [Lista de editores de códigos](#lista-de-editores-de-códigos)
@@ -3676,8 +3674,6 @@ Name: nota, Length: 100836, dtype: float64
 
 
 
-
-
 ### 25.5. Média, desvio padrão, mínimo, máximo. pandas dataframe
 
 ```python
@@ -3719,7 +3715,6 @@ Name: nota, dtype: float64
 ```
 
 [Voltar ao sumário](#sumário)<br>
-
 
 
 
@@ -3803,6 +3798,8 @@ print(vetor_array1.ndim)
 print(vetor_array1.size)
 ```
 
+[Voltar ao sumário](#sumário)<br>
+
 ### 27.1.1. Geração de números randômicos
 
 ```python
@@ -3810,6 +3807,9 @@ from numpy import random
 x = random.randint(1000)
 print(x)
 ```
+
+[Voltar ao sumário](#sumário)<br>
+
 
 ### 27.1.2. Copy e View
 
@@ -3830,6 +3830,8 @@ O resultado será:
 [1 2 3 4 5]
 [50  2  3  4  5]
 ```
+
+[Voltar ao sumário](#sumário)<br>
 
 ### 27.1.3. Join, Split e Sort
 
@@ -3968,6 +3970,8 @@ Name: 2023, dtype: object
 1   Caceres   65   60   67   45
 ```
 
+[Voltar ao sumário](#sumário)<br>
+
 ### 27.2.1. Importar arquivo csv e estatísticas básicas
 
 Exemplo de importação de arquivo CSV e estatísticas básicas:
@@ -4041,6 +4045,9 @@ Variação de Pulse: 45.04210526315789
 ```python
 Em desenvolvimento
 ```
+
+[Voltar ao sumário](#sumário)<br>
+
 
 # 3D
 
@@ -4122,26 +4129,15 @@ Fonte do exemplo acima: https://www.geeksforgeeks.org/how-to-draw-3d-cube-using-
 Em desenvolvimento
 ```
 
+[Voltar ao sumário](#sumário)<br>
+
 # 29. Outras bibliotecas/ferramentas
 
-## 29.1. Seaborn
 
-```python
-Em desenvolvimento
-```
-
-[Voltar ao sumário](#sumário)<br>
-
-## 29.2. Matplotlib
-
-```python
-Em desenvolvimento
-```
+**Os tópicos abaixo estão sendo construídos gradativamente !!**
 
 
-[Voltar ao sumário](#sumário)<br>
-
-## 29.3. Scikitlearn
+## 29.1. Scikitlearn
 
 ```python
 Em desenvolvimento
@@ -4150,7 +4146,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 29.4. TensorFlow
+## 29.2. TensorFlow
 
 ```python
 Em desenvolvimento
@@ -4159,7 +4155,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 29.5. Keras
+## 29.3. Keras
 
 ```python
 Em desenvolvimento
@@ -4168,7 +4164,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 29.6. Pytorch
+## 29.4. Pytorch
 
 ```python
 Em desenvolvimento
@@ -4177,7 +4173,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 29.7. Theano
+## 29.5. Theano
 
 ```python
 Em desenvolvimento
@@ -4186,7 +4182,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 29.8. Pillow
+## 29.6. Pillow
 
 ```python
 Em desenvolvimento
@@ -4195,7 +4191,7 @@ Em desenvolvimento
 
 [Voltar ao sumário](#sumário)<br>
 
-## 29.9. OpenCV
+## 29.7. OpenCV
 
 ```python
 Em desenvolvimento
