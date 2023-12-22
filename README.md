@@ -20,8 +20,6 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 # Sumário:
 
-
-
 - [Tutorial sobre python](#tutorial-sobre-python)
 - [Sumário:](#sumário)
 - [A - Conceitos e exemplos gerais da linguagem](#a---conceitos-e-exemplos-gerais-da-linguagem)
@@ -144,7 +142,7 @@ https://github.com/monteiro74/lista_de_ferramentas
     - [27.2.1. Importar arquivo csv e estatísticas básicas](#2721-importar-arquivo-csv-e-estatísticas-básicas)
 - [3D](#3d)
   - [28.1 Matplotlib](#281-matplotlib)
-  - [28.1. Axes3D](#281-axes3d)
+  - [28.2. Axes3D](#282-axes3d)
 - [Outros materiais](#outros-materiais)
 - [Lista de IDEs](#lista-de-ides)
 - [Lista de editores de códigos](#lista-de-editores-de-códigos)
@@ -154,7 +152,6 @@ https://github.com/monteiro74/lista_de_ferramentas
   - [Licença](#licença)
   - [Observação](#observação)
   - [Estatísticas](#estatísticas)
-
 
 
 
@@ -4066,7 +4063,7 @@ Fonte do exemplo acima: https://matplotlib.org/stable/gallery/mplot3d/projection
 <br>
 
 
-## 28.1. Axes3D
+## 28.2. Axes3D
 
 ```python
 # importa as bibliotecas
