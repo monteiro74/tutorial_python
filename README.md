@@ -4070,7 +4070,7 @@ ax.voxels(data, facecolors=colors, edgecolors='grey')
 Fonte do exemplo acima: https://www.geeksforgeeks.org/how-to-draw-3d-cube-using-matplotlib-in-python/ <br>
 <br>
 
-```python
+```
 Em desenvolvimento
 ```
 
@@ -4084,7 +4084,7 @@ Em desenvolvimento
 
 ## 29.1. Scikitlearn
 
-```python
+```
 Em desenvolvimento
 ```
 
@@ -4093,7 +4093,7 @@ Em desenvolvimento
 
 ## 29.2. TensorFlow
 
-```python
+```
 Em desenvolvimento
 ```
 
@@ -4102,7 +4102,7 @@ Em desenvolvimento
 
 ## 29.3. Keras
 
-```python
+```
 Em desenvolvimento
 ```
 
@@ -4111,7 +4111,7 @@ Em desenvolvimento
 
 ## 29.4. Pytorch
 
-```python
+```
 Em desenvolvimento
 ```
 
@@ -4120,7 +4120,7 @@ Em desenvolvimento
 
 ## 29.5. Theano
 
-```python
+```
 Em desenvolvimento
 ```
 
@@ -4129,7 +4129,7 @@ Em desenvolvimento
 
 ## 29.6. Pillow
 
-```python
+```
 Em desenvolvimento
 ```
 
@@ -4138,7 +4138,7 @@ Em desenvolvimento
 
 ## 29.7. OpenCV
 
-```python
+```
 Em desenvolvimento
 ```
 
