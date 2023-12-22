@@ -142,11 +142,12 @@ https://github.com/monteiro74/lista_de_ferramentas
     - [27.1.3. Join, Split e Sort](#2713-join-split-e-sort)
   - [27.2. Pandas](#272-pandas)
     - [27.2.1. Importar arquivo csv e estatísticas básicas](#2721-importar-arquivo-csv-e-estatísticas-básicas)
-- [3D](#3d)
+- [I - 3D](#i---3d)
 - [28. 3D](#28-3d)
   - [28.1 Matplotlib](#281-matplotlib)
   - [28.1.2. Outro exemplo com Matplotlib](#2812-outro-exemplo-com-matplotlib)
   - [28.2. Axes3D](#282-axes3d)
+- [J - Outras bibliotecas, frameworks e ferramentas](#j---outras-bibliotecas-frameworks-e-ferramentas)
 - [29. Outras bibliotecas/ferramentas](#29-outras-bibliotecasferramentas)
   - [29.1. Scikitlearn](#291-scikitlearn)
   - [29.2. TensorFlow](#292-tensorflow)
@@ -3996,7 +3997,7 @@ Em desenvolvimento
 [Voltar ao sumário](#sumário)<br>
 
 
-# 3D
+# I - 3D
 
 # 28. 3D
 
@@ -4099,6 +4100,8 @@ Em desenvolvimento
 ```
 
 [Voltar ao sumário](#sumário)<br>
+
+# J - Outras bibliotecas, frameworks e ferramentas
 
 # 29. Outras bibliotecas/ferramentas
 
