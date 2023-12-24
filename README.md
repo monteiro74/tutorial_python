@@ -18,8 +18,10 @@ de software além de python, consulte a lista de ferramentas:
 https://github.com/monteiro74/lista_de_ferramentas
 ```
 
+# Sumário
 
 - [Tutorial sobre python](#tutorial-sobre-python)
+- [Sumário](#sumário)
 - [1 - Conceitos e exemplos gerais da linguagem](#1---conceitos-e-exemplos-gerais-da-linguagem)
   - [1.1. Comando print](#11-comando-print)
   - [1.2. Comentário](#12-comentário)
