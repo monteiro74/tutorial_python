@@ -19,8 +19,6 @@ https://github.com/monteiro74/lista_de_ferramentas
 ```
 
 
-
-
 - [Tutorial sobre python](#tutorial-sobre-python)
 - [1 - Conceitos e exemplos gerais da linguagem](#1---conceitos-e-exemplos-gerais-da-linguagem)
   - [1.1. Comando print](#11-comando-print)
@@ -142,8 +140,8 @@ https://github.com/monteiro74/lista_de_ferramentas
     - [8.2.1. Importar arquivo csv e estatísticas básicas](#821-importar-arquivo-csv-e-estatísticas-básicas)
 - [9. 3D](#9-3d)
   - [9.1 Matplotlib](#91-matplotlib)
-    - [9.1.2. Outro exemplo com Matplotlib](#912-outro-exemplo-com-matplotlib)
-  - [9.2. Axes3D](#92-axes3d)
+  - [9.2. Outro exemplo com Matplotlib](#92-outro-exemplo-com-matplotlib)
+  - [9.3. Axes3D](#93-axes3d)
 - [10. Outras bibliotecas/ferramentas](#10-outras-bibliotecasferramentas)
   - [10.1. Scikitlearn](#101-scikitlearn)
   - [10.2. TensorFlow](#102-tensorflow)
@@ -161,7 +159,6 @@ https://github.com/monteiro74/lista_de_ferramentas
   - [Licença](#licença)
   - [Observação](#observação)
   - [Estatísticas](#estatísticas)
-
 
 
 
@@ -4017,7 +4014,7 @@ Fonte do exemplo acima: https://matplotlib.org/stable/gallery/mplot3d/projection
 [Voltar ao sumário](#sumário)<br>
 
 
-### 9.1.2. Outro exemplo com Matplotlib
+## 9.2. Outro exemplo com Matplotlib
 
 Outro exemplo com matplotlib: https://matplotlib.org/stable/gallery/mplot3d/box3d.html
 
@@ -4030,7 +4027,7 @@ Mais um exemplo: https://stackoverflow.com/questions/70911608/plot-3d-cube-and-d
 [Voltar ao sumário](#sumário)<br>
 
 
-## 9.2. Axes3D
+## 9.3. Axes3D
 
 ```python
 # importa as bibliotecas
