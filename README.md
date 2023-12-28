@@ -144,15 +144,6 @@ https://github.com/monteiro74/lista_de_ferramentas
   - [9.1 Matplotlib](#91-matplotlib)
   - [9.2. Outro exemplo com Matplotlib](#92-outro-exemplo-com-matplotlib)
   - [9.3. Axes3D](#93-axes3d)
-- [10. Outras bibliotecas/ferramentas](#10-outras-bibliotecasferramentas)
-  - [10.1. Scikitlearn](#101-scikitlearn)
-  - [10.2. TensorFlow](#102-tensorflow)
-  - [10.3. Keras](#103-keras)
-  - [10.4. Pytorch](#104-pytorch)
-  - [10.5. Theano](#105-theano)
-  - [10.6. Pillow](#106-pillow)
-  - [10.7. OpenCV](#107-opencv)
-- [Outros materiais](#outros-materiais)
 - [Lista de IDEs](#lista-de-ides)
 - [Lista de editores de códigos](#lista-de-editores-de-códigos)
 - [Referências](#referências)
@@ -161,8 +152,6 @@ https://github.com/monteiro74/lista_de_ferramentas
   - [Licença](#licença)
   - [Observação](#observação)
   - [Estatísticas](#estatísticas)
-
-
 
 
 
@@ -4074,77 +4063,6 @@ Em desenvolvimento
 [Voltar ao sumário](#sumário)<br>
 
 
-# 10. Outras bibliotecas/ferramentas
-
-
-**Os tópicos abaixo estão sendo construídos gradativamente !!**
-
-
-## 10.1. Scikitlearn
-
-```
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 10.2. TensorFlow
-
-```
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 10.3. Keras
-
-```
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 10.4. Pytorch
-
-```
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 10.5. Theano
-
-```
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 10.6. Pillow
-
-```
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
-## 10.7. OpenCV
-
-```
-Em desenvolvimento
-```
-
-
-[Voltar ao sumário](#sumário)<br>
-
----
-# Outros materiais
 
 
 
