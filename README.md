@@ -3657,6 +3657,52 @@ btn.grid(column=1, row=0)
 window.mainloop()
 ```
 
+Outro exemplo:
+```python
+import tkinter as tk
+
+class IMCCalculator:
+    def __init__(self, root):
+        self.root = root
+        self.root.title('IMC Calculator')
+        self.root.geometry('300x250')
+        
+        self.peso_label = tk.Label(root, text='Peso:')
+        self.peso_label.grid(row=0, column=0, padx=10, pady=10)
+
+        self.peso_edit = tk.Entry(root)
+        self.peso_edit.grid(row=0, column=1, padx=10, pady=10)
+
+        self.altura_label = tk.Label(root, text='Altura:')
+        self.altura_label.grid(row=1, column=0, padx=10, pady=10)
+
+        self.altura_edit = tk.Entry(root)
+        self.altura_edit.grid(row=1, column=1, padx=10, pady=10)
+
+        self.calcular_button = tk.Button(root, text='Calcular IMC', command=self.calcular_imc)
+        self.calcular_button.grid(row=2, column=0, columnspan=2, pady=10)
+
+        self.resultado_label = tk.Label(root, text='Resultado:')
+        self.resultado_label.grid(row=3, column=0, columnspan=2, pady=10)
+
+        self.sair_button = tk.Button(root, text='Sair', command=root.destroy)
+        self.sair_button.grid(row=4, column=0, columnspan=2, pady=10)
+
+    def calcular_imc(self):
+        try:
+            peso = float(self.peso_edit.get())
+            altura = float(self.altura_edit.get())
+            imc = peso / (altura ** 2)
+            self.resultado_label.config(text=f'Resultado: {imc:.2f}')
+        except ValueError:
+            self.resultado_label.config(text='Por favor, insira valores válidos para peso e altura.')
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = IMCCalculator(root)
+    root.mainloop()
+
+```
 
 ```
 Em desenvolvimento
