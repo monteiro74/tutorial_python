@@ -186,7 +186,7 @@ print("teste3")
 ### 1.2.1. Codigo com acentos
 
 ```python
-# -*- coding: utf8-8 -*-
+# -*- coding: utf-8 -*-
 print("Olá mundo!")
 ```
 
@@ -277,7 +277,7 @@ Regras para variáveis:
 1. não pode ter espaço
 2. não pode ter caracteres especiais
 3. as variáveis são case sensitive
-4. o sinal de = é chamado de operador de atribuição, não é um sinal ade igual !
+4. o sinal de = é chamado de operador de atribuição, não é um sinal de igual !
 
 Alguns exemplos de tipos de dados, mais comuns:
 
@@ -725,7 +725,7 @@ ocorreu um erro!
 Também chamados de comandos estruturais.
 Servem para realizar avaliações ou testes entre variáveis.
 
-Depois de uma condiçõa existe um bloco de código criado com uma tabulação.
+Depois de uma condição existe um bloco de código criado com uma tabulação.
 
 exemplos:
 
@@ -1025,7 +1025,7 @@ Este laço usado para percorrer uma estrutura de dados, como uma lista, por exem
 
 ```python
 # declarações/atribuições
-primeira_lista = [1,2,3,"ana","bob",True,5.66,0,abc]
+primeira_lista = [1,2,3,"ana","bob",True,5.66,0]
 
 # em seguida realizamos as operações
 for i in primeira_lista:
@@ -1037,13 +1037,11 @@ O resultado acima será:
 1
 2
 3
-4
 ana
 bob
 True
 5.66
 0
-3
 ```
 
 [Voltar ao sumário](#sumário)<br>
@@ -1779,7 +1777,7 @@ lista1 = [4,5,7,8,9,0]
 
 # em seguida realizamos as operações
 for indice in range(len(lista1)):
-    print(indice, lista1[i])
+    print(indice, lista1[indice])
 ```
 
 O resultado será:
@@ -1949,14 +1947,14 @@ Com os conjuntos é possível armazenar multiplos valores em uma única variáve
 ```python
 # -*- coding: utf-8 -*-
 # declarações/atribuições
-set1 = ("banana", "abacate", "melancia")
+set1 = {"banana", "abacate", "melancia"}
 
 # em seguida realizamos as operações
 print(set1)
 ```
 
 ```python
-('banana', 'abacate', 'melancia')
+{'banana', 'abacate', 'melancia'}
 ```
 
 [Voltar ao sumário](#sumário)<br>
@@ -1977,10 +1975,10 @@ print(declaracoes1["B"])
 print("--- imprime as chaves ---")
 for chaveD in declaracoes1:
     print(chaveD)
-print("--- impime os valores ---")
+print("--- imprime os valores ---")
 for chaveD in declaracoes1:
     print(declaracoes1[chaveD])
-print("--- impime chave e valores ---")
+print("--- imprime chave e valores ---")
 for chaveD in declaracoes1:
     print(chaveD + ":" +  declaracoes1[chaveD])
 ```
@@ -1995,12 +1993,12 @@ A
 B
 C
 D
---- impime os valores ---
+--- imprime os valores ---
 ANA
 BOB
 CARLOS
 DANIEL
---- impime chave e valores ---
+--- imprime chave e valores ---
 A:ANA
 B:BOB
 C:CARLOS
@@ -2794,8 +2792,8 @@ resultado = dbcursor.fetchall()
 for x in resultado:
   print(x)
   
-print("--- countar ---------------")
-dbcursor.execute("SELECT COUNT(idade) AS ontagemIdade FROM alunos;")
+print("--- contar ---------------")
+dbcursor.execute("SELECT COUNT(idade) AS contagemIdade FROM alunos;")
 resultado = dbcursor.fetchall()
 for x in resultado:
   print(x)
@@ -2890,8 +2888,8 @@ x = col1.find_one()
 print(x)
 
 # imprimir todos os documentos
-for col1 in col1.find():
-    print(col1)
+for documento in col1.find():
+    print(documento)
 ```
 
 O resultado será:
@@ -3043,9 +3041,9 @@ dados = {'Empresa0': 109.50,
         'Empresa4': 100.30,
         'Empresa5': 102.54,
         'Empresa6': 137.96,
-        'Empresa6': 123.38,
         'Empresa7': 135.99,
-        'Empresa8': 123.60}
+        'Empresa8': 123.60,
+        'Empresa9': 123.38}
 group_dados = list(dados.values())
 group_nomes = list(dados.keys())
 group_mean = npy.mean(group_dados)
@@ -3154,10 +3152,10 @@ print(notas.head())
 print("--- mostrar uma coluna 2 (forma1) ---------------------------")
 print(notas["nota"])
 
-print("--- mostras uma coluna 2 (forma2) ------------------")
+print("--- mostra uma coluna 2 (forma2) ------------------")
 print(notas.nota)
 
-print("--- mostras uma coluna 2 (forma3) ------------------")
+print("--- mostra uma coluna 2 (forma3) ------------------")
 print(notas.nota.head)
 
 print("--- mostrar um gráfico do tipo histograma com os valores de nota")
@@ -4044,7 +4042,7 @@ axs[2].set_title("'persp'\nfocal_length = 0.2", fontsize=10)
 plt.show()
 ```
 
-<bt>
+<br>
 Fonte do exemplo acima: https://matplotlib.org/stable/gallery/mplot3d/projections.html<br>
 <br>
 
@@ -4098,7 +4096,7 @@ ax = fig.add_subplot(111, projection='3d')
 ax.voxels(data, facecolors=colors, edgecolors='grey')
 ```
 
-<bt>
+<br>
 Fonte do exemplo acima: https://www.geeksforgeeks.org/how-to-draw-3d-cube-using-matplotlib-in-python/ <br>
 <br>
 
