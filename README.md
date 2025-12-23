@@ -3,6 +3,17 @@
 
 Objetivos: Pequenos exemplos para uso da linguagem python em sala de aula, em qualquer projetos de software. Exemplos que podem ser citados e comentados nas disciplinas que necessitam do apoio de uma linguagem de programação. Como prerequisito é necessário ter uma IDE instalada. Este material é extremamente resumido e supões que o leitor tem conhecimento básico de programação ou pelo menos português estruturado. (Esta é a versão: 2).<br>
 
+## 📌 Finalidade e Público-Alvo
+
+Este tutorial não se destina apenas ao ambiente acadêmico. Embora tenha sido desenvolvido inicialmente como material de apoio para disciplinas universitárias, **este conteúdo é igualmente valioso para profissionais da área de tecnologia** que desejam:
+
+- Consultar rapidamente sintaxe e exemplos práticos de Python
+- Revisar conceitos fundamentais e avançados da linguagem
+- Utilizar como referência rápida em projetos profissionais
+- Aprender ou relembrar bibliotecas específicas (MySQL, MongoDB, Matplotlib, Pandas, etc.)
+- Ensinar Python para equipes ou colegas de trabalho
+
+O material apresenta exemplos diretos e objetivos, facilitando o aprendizado prático tanto para estudantes quanto para desenvolvedores profissionais em busca de uma fonte de consulta eficiente.
 
 ```
 Observações:
@@ -152,6 +163,9 @@ https://github.com/monteiro74/lista_de_ferramentas
   - [Licença](#licença)
   - [Observação](#observação)
   - [Estatísticas](#estatísticas)
+- [Como Contribuir](#como-contribuir)
+- [Créditos](#créditos)
+- [Como Citar Este Material](#como-citar-este-material)
 
 
 
@@ -4195,37 +4209,102 @@ Primeira postagem em: Junho/2023.
 
 ## Estatísticas
 
+### Estatísticas do Repositório
 
+![GitHub stars](https://img.shields.io/github/stars/monteiro74/tutorial_python?style=social)
+![GitHub forks](https://img.shields.io/github/forks/monteiro74/tutorial_python?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/monteiro74/tutorial_python?style=social)
 
+![GitHub repo size](https://img.shields.io/github/repo-size/monteiro74/tutorial_python?style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/monteiro74/tutorial_python?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/monteiro74/tutorial_python?style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/monteiro74/tutorial_python?style=flat-square)
 
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=monteiro74.tutorial_python)
+![GitHub contributors](https://img.shields.io/github/contributors/monteiro74/tutorial_python?style=flat-square)
 
-Histórico de atualizações nos repositórios do Prof. Monteiro:<br>
-[![teste](https://github-readme-activity-graph.vercel.app/graph?username=monteiro74&theme=github-compact)](https://github.com/monteiro74/tutorial_python)
+### Histórico de Atualizações
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=monteiro74&theme=github-compact)](https://github.com/monteiro74/tutorial_python)
+
+### Estatísticas do Autor
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=monteiro74&theme=default)](https://git.io/streak-stats)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=monteiro74)](https://github.com/monteiro74/github-readme-stats)
+![Stats](https://github-readme-stats.vercel.app/api?username=monteiro74&show_icons=true&theme=default&include_all_commits=true&count_private=true)
 
-Pulse:<br>
-https://github.com/monteiro74/tutorial_python/pulse<BR>
+### Linguagens Mais Utilizadas
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=monteiro74&layout=compact&theme=default)](https://github.com/monteiro74/github-readme-stats)
+
+### Links Úteis de Análise
+
+- **Pulse:** [Visualizar atividade do repositório](https://github.com/monteiro74/tutorial_python/pulse)
+- **Histórico de frequência de código:** [Ver gráfico](https://github.com/monteiro74/tutorial_python/graphs/code-frequency)
+- **Atividade de commits:** [Ver detalhes](https://github.com/monteiro74/tutorial_python/graphs/commit-activity)
+- **Tráfego:** [Ver estatísticas de visitantes](https://github.com/monteiro74/tutorial_python/graphs/traffic)
+
+[Voltar ao sumário](#sumário)<br>
 
 
-Histórico de frequência de código:<BR>
-https://github.com/monteiro74/tutorial_python/graphs/code-frequency<BR>
+---
+# Como Contribuir
 
-Atividade de commits:<BR>
-https://github.com/monteiro74/tutorial_python/graphs/commit-activity<BR>
+Contribuições são bem-vindas! Se você deseja sugerir melhorias, reportar erros ou contribuir com novos exemplos, entre em contato:
 
-Trafego:<BR>
-https://github.com/monteiro74/tutorial_python/graphs/traffic<BR>
+- **Website:** [www.pontodeensino.com](https://www.pontodeensino.com)
+- **Contato:** Prof. Dr. Emiliano Soares Monteiro
 
-![stats](https://github-readme-stats.vercel.app/api?username=monteiro74&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+Você também pode abrir uma issue ou pull request neste repositório para sugerir alterações ou correções.
 
-![stats](https://github-readme-stats.vercel.app/api?username=monteiro74&show_icons=true&theme=dark)
+[Voltar ao sumário](#sumário)<br>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=monteiro74)](https://github.com/monteiro74/github-readme-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=monteiro74&layout=donut-vertical)](https://github.com/monteiro74/github-readme-stats)
+---
+# Créditos
+
+**Autor:** Prof. Dr. Emiliano Soares Monteiro
+
+Este material foi desenvolvido e é mantido pelo Prof. Dr. Emiliano Soares Monteiro, com o objetivo de fornecer um recurso educacional de qualidade para estudantes e profissionais interessados em aprender Python.
+
+- **Website:** [www.pontodeensino.com](https://www.pontodeensino.com)
+- **GitHub:** [@monteiro74](https://github.com/monteiro74)
+
+[Voltar ao sumário](#sumário)<br>
+
+
+---
+# Como Citar Este Material
+
+Se você utilizar este material em trabalhos acadêmicos, projetos ou publicações, por favor cite adequadamente:
+
+## Formato ABNT
+
+```
+MONTEIRO, Emiliano Soares. Tutorial sobre Python. 2023. Disponível em: https://github.com/monteiro74/tutorial_python. Acesso em: [data de acesso].
+```
+
+## Formato BibTeX
+
+```bibtex
+@misc{monteiro2023python,
+  author       = {Monteiro, Emiliano Soares},
+  title        = {Tutorial sobre Python},
+  year         = {2023},
+  publisher    = {GitHub},
+  journal      = {GitHub repository},
+  howpublished = {\url{https://github.com/monteiro74/tutorial_python}},
+  note         = {Acesso em: [data de acesso]}
+}
+```
+
+## Citação em Texto
+
+Para citações no texto, utilize:
+
+- **Formato autor-data:** (MONTEIRO, 2023)
+- **Formato narrativo:** Monteiro (2023) apresenta exemplos práticos de Python...
+- **Citação direta:** Conforme Monteiro (2023, p. 1), "Pequenos exemplos para uso da linguagem python..."
 
 [Voltar ao sumário](#sumário)<br>
 
